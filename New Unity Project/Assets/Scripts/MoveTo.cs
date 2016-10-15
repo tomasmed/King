@@ -35,6 +35,7 @@ public class MoveTo : MonoBehaviour {
 	///initializes abiment movement map 
 	Generate();
 	agent = GetComponent<NavMeshAgent>();
+    agent.updateRotation = false;//true;
 
 
 	/*goal.position =  new Vector3(Random.Range(-11,10), 1 , Random.Range (-11,10));
@@ -65,18 +66,24 @@ public class MoveTo : MonoBehaviour {
 
 		agent.SetDestination(transformList[UnityEngine.Random.Range(10,600)].transform.position); 
 
-		print ("agent");
-		print(agent.destination);
+		//print ("agent");
+		//print(agent.destination);
 
 	}
 
 
 	// Update is called once per frame
 	void Update (){
-
-		///if the agent gets close, picks another position. 
-		if( agent.remainingDistance < 0.5f)
+        
+        //GetComponent<LookAt>().lookAtTargetPosition = agent.steeringTarget + transform.forward;
+        ///if the agent gets close, picks another position. 
+        if ( agent.remainingDistance < 0.5f)
 			GotoNextPoint ();
-			print(agent.destination);
+
+            Vector3 targetDir = agent.destination - transform.position;
+            transform.forward = targetDir;
+            transform.Rotate(Vector3.down, 90, 0);
+         
+            print(agent.destination);
 		}
 }
