@@ -1,4 +1,16 @@
 sceneSetups:
+<<<<<<< HEAD
 - path: Assets/Scenes/MainMenu.unity
+=======
+<<<<<<< HEAD
+- path: Assets/sceneHanna.unity
+=======
+<<<<<<< HEAD
+- path: Assets/Neilsplayhouse.unity
+=======
+- path: Assets/Scenes/Tutorial_Cutscene.unity
+>>>>>>> 3cc17e98dada42cbf010ad3a9a43e8342f5a74a8
+>>>>>>> 789ee5c4b271bc9f5c9722dcf2324d176fc5e586
+>>>>>>> ba240cfea319f32fdd2d0408762d8db15c333801
   isLoaded: 1
   isActive: 1
