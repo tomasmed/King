@@ -1,1 +1,8 @@
+<<<<<<< HEAD
 sceneSetups: []
+=======
+sceneSetups:
+- path: Assets/sceneHanna.unity
+  isLoaded: 1
+  isActive: 1
+>>>>>>> 576b1a6a2074d494f724c2dfff0789f3040b2a37
