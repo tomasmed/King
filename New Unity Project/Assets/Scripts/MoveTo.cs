@@ -4,8 +4,8 @@ using System.Collections;
 public class MoveTo : MonoBehaviour {
 	
 	//public GameObject goalobject;
-	public static GameObject[] points;
-	public static Vector3[] vertices;
+	//public static GameObject[] points;
+	public Vector3[] vertices;
 	private NavMeshAgent agent;
 
 	public int xSize, ySize;
