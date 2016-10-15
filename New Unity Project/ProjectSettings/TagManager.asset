@@ -4,10 +4,14 @@
 TagManager:
   serializedVersion: 2
   tags:
+<<<<<<< HEAD
   - Bard
   - Floor
   - Agent
   - New Tag
+=======
+  - Agent
+>>>>>>> 3cc17e98dada42cbf010ad3a9a43e8342f5a74a8
   layers:
   - Default
   - TransparentFX

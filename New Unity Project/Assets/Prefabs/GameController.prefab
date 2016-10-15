@@ -19,9 +19,8 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 4000012766036678}
-  - 114: {fileID: 114000013749492200}
   - 114: {fileID: 114000011392550444}
-  - 114: {fileID: 114000013710966594}
+  - 114: {fileID: 114000011052856718}
   m_Layer: 0
   m_Name: GameController
   m_TagString: Untagged
@@ -42,6 +41,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
+--- !u!114 &114000011052856718
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000011009741840}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3375854d38cb8734c91bd91675f5182b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Beacon: {fileID: 1000011189829822, guid: aeee940e83d71ef40bf664c11cdbab92, type: 2}
+  coins: 15
+  BeaconCost: 5
 --- !u!114 &114000011392550444
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -54,29 +67,3 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   time: 10
---- !u!114 &114000013710966594
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1000011009741840}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 00d385bf125cb1f49ae255c53323b683, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Goal: {fileID: 0}
---- !u!114 &114000013749492200
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1000011009741840}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3bc92f1b707db724ba478f1d857c4707, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Beacon: {fileID: 0, guid: aeee940e83d71ef40bf664c11cdbab92, type: 2}
-  coins: 15
-  BeaconCost: 5
