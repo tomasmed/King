@@ -59,12 +59,12 @@ public class MoveTo : MonoBehaviour {
 			return;
 		///sets the agent to go to a random position 
 
-
+		print ("gotonext");
 		//GameObject tmp = new GameObject ("tempNode");
 
         ///transform.position = vertices [Random.Range (10, 600)];
 
-		agent.SetDestination(transformList[UnityEngine.Random.Range(10,600)].transform.position); 
+		agent.SetDestination(transformList[UnityEngine.Random.Range(10,500)].transform.position); 
 
 		//print ("agent");
 		//print(agent.destination);
@@ -77,13 +77,13 @@ public class MoveTo : MonoBehaviour {
         
         //GetComponent<LookAt>().lookAtTargetPosition = agent.steeringTarget + transform.forward;
         ///if the agent gets close, picks another position. 
-        if ( agent.remainingDistance < 0.5f)
+        if ( agent.remainingDistance < 0.1f)
 			GotoNextPoint ();
-
+		
             Vector3 targetDir = agent.destination - transform.position;
             transform.forward = targetDir;
             transform.Rotate(Vector3.down, 90, 0);
          
-            print(agent.destination);
+            //print(agent.destination);
 		}
 }
