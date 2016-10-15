@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/_Scene0.unity
+- path: Assets/Hanna.unity
   isLoaded: 1
   isActive: 1

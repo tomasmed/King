@@ -1,5 +1,7 @@
 ﻿using UnityEngine;
+using System;
 using System.Collections;
+using System.Collections.Generic;
 
 public class MoveTo : MonoBehaviour {
 	
@@ -9,6 +11,9 @@ public class MoveTo : MonoBehaviour {
 	private NavMeshAgent agent;
 
 	public int xSize, ySize;
+
+    public GameObject transfromListOb;
+    public List<Transform> transformList;
 
 	private void Awake () {
 		Generate();
@@ -62,7 +67,10 @@ public class MoveTo : MonoBehaviour {
 
 		GameObject tmp = new GameObject ("tempNode");
 
-		tmp.transform.position = vertices [Random.Range (10, 600)];
+        //tmp.transform.position = vertices [Random.Range (10, 600)];
+
+        //transfromListOb.GetComponent<scripty>().tList[0].positon;
+        //agent.SetDestination(transformList[transformList.Count - 1].position); 
 
 		print (tmp.transform.position);
 		print("agent");
