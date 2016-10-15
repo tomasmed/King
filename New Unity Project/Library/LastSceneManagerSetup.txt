@@ -1,4 +1,8 @@
 sceneSetups:
+<<<<<<< HEAD
 - path: Assets/Tomas.unity
+=======
+- path: Assets/sceneHanna.unity
+>>>>>>> 152fc63177c530fedb3e1f83ccc90b2ad170dc68
   isLoaded: 1
   isActive: 1
