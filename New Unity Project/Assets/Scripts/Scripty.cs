@@ -12,6 +12,9 @@ public class Scripty : MonoBehaviour {
 	public List <GameObject> tList = new List<GameObject>();
 	public int xSize, ySize;
 
+	public GameObject HomeBaseOb;
+
+
 	// Use this for initialization
 	private void Awake () {
 		CreatePoints();
@@ -21,10 +24,7 @@ public class Scripty : MonoBehaviour {
 
 	// Update is called once per frame
 	void Update () {
-	
-		for (int i = 0; i < 50; i++) {
 
-		}
 	}
 
 

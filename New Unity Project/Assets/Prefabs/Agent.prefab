@@ -94,7 +94,8 @@ MonoBehaviour:
   vertices: []
   xSize: 25
   ySize: 25
-  transformListOb: {fileID: 0}
+  transformListOb: {fileID: 1000012327325514, guid: 4061db95f5216d442add172d4877ce8e,
+    type: 2}
   transformList: []
 --- !u!136 &136000013382146156
 CapsuleCollider:
