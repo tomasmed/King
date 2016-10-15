@@ -53,9 +53,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Beacon: {fileID: 1000011189829822, guid: aeee940e83d71ef40bf664c11cdbab92, type: 2}
+<<<<<<< HEAD
+  Floor: {fileID: 0}
+  coins: 15
+  beaconCost: 0
+  setObject: {fileID: 0}
+  noSetObjectBlock: {fileID: 0}
+  noSetObjectBroke: {fileID: 0}
+=======
   Floor: {fileID: 1000010795967744, guid: f0dd9b83aba50c24fac3717022df3385, type: 2}
   coins: 15
   beaconCost: 0
+>>>>>>> 152fc63177c530fedb3e1f83ccc90b2ad170dc68
 --- !u!114 &114000011392550444
 MonoBehaviour:
   m_ObjectHideFlags: 1

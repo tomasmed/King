@@ -7,11 +7,14 @@ public class IntoBard : MonoBehaviour {
 	public GameObject HomeposOb1;
 	private NavMeshAgent agent;
 
-	void OnTriggerStay(Collider other){
+
+	void OnTriggerEnter(Collider other){
 		agent = GetComponent<NavMeshAgent>();
 		if (other.tag == "Bard") {
-			Debug.Log ("Agent is inside bard");
+			print ("Agent is inside bard");
 			agent.SetDestination(HomeposOb1.transform.position);
+			print ("redircting to home");
+
 		}
 
 		if (other.tag == "HomeBase") {
