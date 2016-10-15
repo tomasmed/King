@@ -17,7 +17,7 @@ public class Timer : MonoBehaviour {
         else
         {
             time -= Time.deltaTime;
-            print((int)time);
+            //print((int)time);
         }
 	}
 }
