@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 3bc92f1b707db724ba478f1d857c4707
+timeCreated: 1476510842
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - Beacon: {fileID: 1000011189829822, guid: aeee940e83d71ef40bf664c11cdbab92, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
