@@ -1,6 +1,10 @@
 sceneSetups:
 <<<<<<< HEAD
+<<<<<<< HEAD
 - path: Assets/sceneHanna.unity
+=======
+- path: Assets/Neilsplayhouse.unity
+>>>>>>> e2cb4ff4906f6a7be328454a1dd5ab277ed3a657
 =======
 <<<<<<< HEAD
 - path: Assets/Scenes/MainMenu.unity
