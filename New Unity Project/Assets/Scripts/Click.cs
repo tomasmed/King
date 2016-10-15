@@ -15,11 +15,11 @@ public class Click : MonoBehaviour {
 	void Update () {
 	    if(Input.GetMouseButtonDown(0))
         {
-            if (coins <= beaconCost)
+            if (coins >= beaconCost)
             {
                 Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
                 RaycastHit hit;
-                if (Physics.Raycast(ray, out hit) )
+                if (Physics.Raycast(ray, out hit) && (hit.collider.name.Equals(Floor.GetComponent<Collider>().name)))
                 {
                     Instantiate(Beacon, hit.point, transform.rotation);
                     coins -= beaconCost;
