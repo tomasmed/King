@@ -3,12 +3,11 @@ using System.Collections;
 
 public class Click : MonoBehaviour {
     public GameObject Beacon;
-<<<<<<< HEAD
+
     public GameObject Floor;
     public int coins;
     public int beaconCost;
 	// Use this for initialization
-=======
     // Use this for initialization
     //sound clip to place object
     public AudioClip setObject;
@@ -17,7 +16,6 @@ public class Click : MonoBehaviour {
     //sound clip when object can't be placed because we're broke
     public AudioClip noSetObjectBroke;
 
->>>>>>> 789ee5c4b271bc9f5c9722dcf2324d176fc5e586
 	void Start () {
 	
 	}
@@ -26,7 +24,6 @@ public class Click : MonoBehaviour {
 	void Update () {
 	    if(Input.GetMouseButtonDown(0))
         {
-<<<<<<< HEAD
             if (coins >= beaconCost)
             {
                 Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
@@ -37,15 +34,7 @@ public class Click : MonoBehaviour {
                     coins -= beaconCost;
                 }
             }
-=======
-            Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
-            RaycastHit hit;
-            //if RayCast Hits the ground
-            if (Physics.Raycast(ray, out hit))
-            {
-                Instantiate(Beacon, hit.point, transform.rotation);
-                AudioManager.Instance.PlaySound(setObject);
-            }
+
             //if RayCast hits another object (can't place bc space)
             /* else if (raycaststuff)
             {
@@ -58,8 +47,6 @@ public class Click : MonoBehaviour {
                 AudioManager.Instance.PlaySound(noSetObjectBroke);
             }
             */
-
->>>>>>> 789ee5c4b271bc9f5c9722dcf2324d176fc5e586
         }
     }
 }
