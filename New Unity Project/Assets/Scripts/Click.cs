@@ -57,6 +57,17 @@ public class Click : MonoBehaviour
                     //AudioManager.Instance.PlaySound(noSetObjectBlock);
                 }
             }
+<<<<<<< HEAD
+
+		
+            //if RayCast hits another object (can't place bc space)
+            /* else if (raycaststuff)
+            {
+                AudioManager.Instance.PlaySound(noSetObjectBlock);
+            }
+            */
+=======
+>>>>>>> 576b1a6a2074d494f724c2dfff0789f3040b2a37
             //if RayCast hits ground, but not enough resources
             else
             {
