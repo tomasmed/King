@@ -81,7 +81,7 @@ NavMeshSettings:
     serializedVersion: 2
     agentRadius: 0.5
     agentHeight: 2
-    agentSlope: 45
+    agentSlope: 10
     agentClimb: 0.4
     ledgeDropHeight: 0
     maxJumpAcrossDistance: 0
@@ -488,7 +488,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4000010660067686, guid: aede54e5d1ee0434aa928bd58f5f4b1d, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 1.65
+      value: 2.26
       objectReference: {fileID: 0}
     - target: {fileID: 4000010660067686, guid: aede54e5d1ee0434aa928bd58f5f4b1d, type: 2}
       propertyPath: m_LocalPosition.z
@@ -513,6 +513,15 @@ Prefab:
     - target: {fileID: 4000010660067686, guid: aede54e5d1ee0434aa928bd58f5f4b1d, type: 2}
       propertyPath: m_RootOrder
       value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 135000011210516936, guid: aede54e5d1ee0434aa928bd58f5f4b1d,
+        type: 2}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000010630555508, guid: aede54e5d1ee0434aa928bd58f5f4b1d, type: 2}
+      propertyPath: m_TagString
+      value: HomeBase
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: aede54e5d1ee0434aa928bd58f5f4b1d, type: 2}
@@ -1276,6 +1285,15 @@ Prefab:
       propertyPath: transformListOb
       value: 
       objectReference: {fileID: 235688527}
+    - target: {fileID: 1000012274969562, guid: c62e8a37ce530954c8a78f9176f87223, type: 2}
+      propertyPath: m_TagString
+      value: Bard
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000011914077356, guid: c62e8a37ce530954c8a78f9176f87223,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c62e8a37ce530954c8a78f9176f87223, type: 2}
   m_IsPrefabParent: 0
