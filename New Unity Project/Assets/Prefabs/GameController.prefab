@@ -77,6 +77,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3bc92f1b707db724ba478f1d857c4707, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Beacon: {fileID: 1000011189829822, guid: aeee940e83d71ef40bf664c11cdbab92, type: 2}
+  Beacon: {fileID: 0, guid: aeee940e83d71ef40bf664c11cdbab92, type: 2}
   coins: 15
   BeaconCost: 5
