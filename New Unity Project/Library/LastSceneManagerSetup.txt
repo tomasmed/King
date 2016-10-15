@@ -1,4 +1,8 @@
 sceneSetups:
-- path: Assets/Tomas.unity
+<<<<<<< HEAD
+- path: Assets/Scenes/Tutorial_Cutscene.unity
+=======
+- path: Assets/sceneHanna.unity
+>>>>>>> origin/master
   isLoaded: 1
   isActive: 1
