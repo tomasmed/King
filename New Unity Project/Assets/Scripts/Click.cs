@@ -34,7 +34,7 @@ public class Click : MonoBehaviour {
                     coins -= beaconCost;
                 }
             }
-
+		
             //if RayCast hits another object (can't place bc space)
             /* else if (raycaststuff)
             {
