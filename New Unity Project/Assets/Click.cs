@@ -2,7 +2,7 @@
 using System.Collections;
 
 public class Click : MonoBehaviour {
-
+    public GameObject Beacon;
 	// Use this for initialization
 	void Start () {
 	
@@ -12,7 +12,10 @@ public class Click : MonoBehaviour {
 	void Update () {
 	    if(Input.GetMouseButtonDown(0))
         {
-            Debug.Log("Pressed left click");
+            Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+            RaycastHit hit;
+            if (Physics.Raycast(ray, out hit))
+                Instantiate(Beacon, hit.point, transform.rotation);
         }
 	}
 }
