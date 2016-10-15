@@ -12,26 +12,20 @@ public class MoveTo : MonoBehaviour {
 
 	public int xSize, ySize;
 
-    public GameObject transfromListOb;
-    public List<Transform> transformList;
+    public GameObject transformListOb;
+	public List<GameObject> transformList = new List<GameObject>();
 
-	private void Awake () {
-		Generate();
-	}
-		
-	//public Transform[] gridPoints;
 
-		
-	//public Transform[] gridPoints;
 
+	//generates a list for each 
 	private void Generate () {
 		vertices = new Vector3[(xSize + 1) * (ySize + 1)];
+
+		print (transformListOb.GetComponent<Scripty> ().tList.Count);
+
 		//gridPoints = new Transform[(xSize + 1) * (ySize + 1)];
-		for (int i = 0, y = 0; y <= ySize; y++) {
-			for (int x = 0; x <= xSize; x++, i++) {
-				vertices[i] = new Vector3(x-(xSize/2), 1, y-(ySize/2));
-				//gridPoints[i].position = new Vector3(x-(xSize/2), 1, y-(ySize/2));
-			}
+		for (int y = 0; y < transformListOb.GetComponent<Scripty> ().tList.Count; y++) {
+			transformList.Add (transformListOb.GetComponent<Scripty> ().tList[y]);
 		}
 	}
 
@@ -39,7 +33,7 @@ public class MoveTo : MonoBehaviour {
 	void Start () {
 
 	///initializes abiment movement map 
-
+	Generate();
 	agent = GetComponent<NavMeshAgent>();
 
 
@@ -65,16 +59,13 @@ public class MoveTo : MonoBehaviour {
 		///sets the agent to go to a random position 
 
 
-		GameObject tmp = new GameObject ("tempNode");
+		//GameObject tmp = new GameObject ("tempNode");
 
-        //tmp.transform.position = vertices [Random.Range (10, 600)];
+        ///transform.position = vertices [Random.Range (10, 600)];
 
-        //transfromListOb.GetComponent<scripty>().tList[0].positon;
-        //agent.SetDestination(transformList[transformList.Count - 1].position); 
+		agent.SetDestination(transformList[UnityEngine.Random.Range(10,600)].transform.position); 
 
-		print (tmp.transform.position);
-		print("agent");
-		agent.destination = tmp.transform.position;
+		print ("agent");
 		print(agent.destination);
 
 	}
@@ -87,9 +78,5 @@ public class MoveTo : MonoBehaviour {
 		if( agent.remainingDistance < 0.5f)
 			GotoNextPoint ();
 			print(agent.destination);
-
-		
-
-
 		}
 }

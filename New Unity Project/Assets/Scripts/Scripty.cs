@@ -21,7 +21,7 @@ public class Scripty : MonoBehaviour {
 
 	// Update is called once per frame
 	void Update () {
-
+	
 		for (int i = 0; i < 50; i++) {
 
 		}
