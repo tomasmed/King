@@ -13,6 +13,7 @@ public class MoveTo : MonoBehaviour {
 	public int xSize, ySize;
 
     private GameObject transformListOb;
+	private GameObject IntoBardOb;
 	public List<GameObject> transformList = new List<GameObject>();
 
 
@@ -81,11 +82,12 @@ public class MoveTo : MonoBehaviour {
         ///if the agent gets close, picks another position. 
         if ( agent.remainingDistance < 0.1f)
 			GotoNextPoint ();
-		
+			
             Vector3 targetDir = agent.destination - transform.position;
             transform.forward = targetDir;
             transform.Rotate(Vector3.down, 90, 0);
-         
+			//thisgameObject.BeaconPath = false;
+			print ("agent changes direction randomly"); 
             //print(agent.destination);
 		}
 }

@@ -6,14 +6,20 @@ public class IntoBard : MonoBehaviour {
 	/// <summary>
 	/// only for agents 
 	/// </summary>
-
+	//Agent theAgent;
 	public GameObject HomeposOb1;
 	private NavMeshAgent agent;
+	public bool BeaconPath;
 
+
+	private void Awake(){
+		BeaconPath = this.gameObject.GetComponentInParent<bool>();
+	}
 	void OnTriggerEnter(Collider other){
 		agent = GetComponent<NavMeshAgent>();
 		if (other.tag == "Beacon") {
 			agent.SetDestination(HomeposOb1.transform.position);
+			BeaconPath = true;
 			print ("Agent is inside beacon");
 			print ("redirecting to home");
 		}
@@ -29,16 +35,24 @@ public class IntoBard : MonoBehaviour {
 			Destroy(gameObject); //gameobject is Agent 
 		}
 
-		/*if (other.tag == "Bard") {
-			Debug.Log ("Agent is following");
-			//agent.SetDestination(HomeposOb1.transform.position);  //following code 
-			print(other.transform.position);
-			agent.Stop (); //stopping  
-		}*/
+		if (other.tag == "redirect") {
+			if(BeaconPath == true){
+			//once agents hit the redirect they should move back to the castle.
+			agent.SetDestination(HomeposOb1.transform.position);  //following code 
+			print ("agent is redirecting to pillar"); //stopping 
+			}
+		} 
+
+		///if redirectbool is active 
+		/// 	take agentNav and set to redirect node pos 
+		// t
+
+		///second redirect that sends to goal again 
+		/// 
 
 
 
-
+	
 	}
 
 	void OnTriggerStay(Collider other){

@@ -55,6 +55,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Beacon: {fileID: 1000011189829822, guid: aeee940e83d71ef40bf664c11cdbab92, type: 2}
   Floor: {fileID: 1000010795967744, guid: f0dd9b83aba50c24fac3717022df3385, type: 2}
+  moneyGT: {fileID: 114000013018299992, guid: b799c5155f267294288908429538d4da, type: 2}
   coins: 15
   beaconCost: 2
 --- !u!114 &114000010516434846
@@ -70,6 +71,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   score: 0
   money: 0
+  moneyGT: {fileID: 114000013018299992, guid: b799c5155f267294288908429538d4da, type: 2}
 --- !u!114 &114000010866011554
 MonoBehaviour:
   m_ObjectHideFlags: 1

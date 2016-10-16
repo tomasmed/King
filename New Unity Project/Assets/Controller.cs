@@ -6,6 +6,7 @@ public class Controller : MonoBehaviour {
 	public static Controller S;
 	public int score; 
 	public int money; 
+	public bool isRedirectorPlaced; 
 	// Use tis for initialization
 	public Text moneyGT;
 	void Awake() {
@@ -16,7 +17,7 @@ public class Controller : MonoBehaviour {
 		score = 0;
 		//initialize money + score
 		money = 6; 
-
+		isRedirectorPlaced = false;
 	}
 	
 	// Update is called once per frame

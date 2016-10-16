@@ -10,7 +10,7 @@ TagManager:
   - Floor
   - Agent
   - Beacon
-  - New Tag
+  - Redirector
   layers:
   - Default
   - TransparentFX

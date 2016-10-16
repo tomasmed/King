@@ -133,7 +133,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: HumanCount
+  m_Text: 'HumanCount:'
 --- !u!114 &114000013018299992
 MonoBehaviour:
   m_ObjectHideFlags: 1
