@@ -1,8 +1,4 @@
 sceneSetups:
-<<<<<<< HEAD
 - path: Assets/Scenes/Hanna.unity
-=======
-- path: Assets/Neilsplayhouse.unity
->>>>>>> c0a17990ab9a7d100217fcce52edaf49ef7353cf
   isLoaded: 1
   isActive: 1
