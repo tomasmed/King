@@ -374,6 +374,16 @@ Prefab:
       propertyPath: beaconCost
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 114000010082127372, guid: 1f7a17ee33bfa284db4222cc530e4097,
+        type: 2}
+      propertyPath: hitOffset
+      value: 5.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000010082127372, guid: 1f7a17ee33bfa284db4222cc530e4097,
+        type: 2}
+      propertyPath: moveSeconds
+      value: 2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1f7a17ee33bfa284db4222cc530e4097, type: 2}
   m_IsPrefabParent: 0

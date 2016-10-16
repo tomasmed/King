@@ -13,6 +13,9 @@ public class ClickSwitch : MonoBehaviour
     private bool placeBeacon;
     private bool placeRedirect;
     public Text moneyGT;
+    public float hitOffset;
+    public float moveSeconds;
+    private GameObject toMove;
 
     void Start()
     {
@@ -40,6 +43,7 @@ public class ClickSwitch : MonoBehaviour
                 addRedirect();
             }
         }
+        //Beacon move
     }
 
     void checkInput()
@@ -62,15 +66,23 @@ public class ClickSwitch : MonoBehaviour
         {
             Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
             RaycastHit hit;
+            
             //if RayCast Hits the ground
             if (Physics.Raycast(ray, out hit) && (hit.collider.name.Equals(Floor.GetComponent<Collider>().name)))
             {
-                Instantiate(Beacon, hit.point, transform.rotation);
+                //sets Vector3 transform to hit.point, offsets Y value by 'hitOffset' public varable
+                Vector3 hitTransform = hit.point;
+                hitTransform.y -= hitOffset;
+                print(hit.point.y); //2.5
+                print(hitTransform.y); //-2.5
+
+                //Hanna - changed hit.point to hitTransform
+                Instantiate(Beacon, hitTransform, transform.rotation);
                 //coins -= beaconCost;
+
                 Controller.S.money -= beaconCost;
                 moneyGT.text = "Credits :" + Controller.S.money.ToString();
                 AkSoundEngine.PostEvent("Play_Beacon", Beacon);
-                print("beaconsound");
             }
             //if RayCast hits another object (can't place bc space)
             else if ((hit.collider.name.Equals(Beacon.GetComponent<Collider>().name)) || hit.collider.name.Equals(Redirect.GetComponent<Collider>().name))
