@@ -220,7 +220,7 @@ GameObject:
   - 114: {fileID: 5138695}
   - 45: {fileID: 5138701}
   - 114: {fileID: 5138702}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Main Camera
   m_TagString: MainCamera
   m_Icon: {fileID: 0}
@@ -2465,7 +2465,7 @@ Transform:
   m_LocalEulerAnglesHint: {x: 142.841, y: 38.421997, z: 65.20699}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 12
 --- !u!1 &269345218 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 100004, guid: de705f92f6ac29448bc19fd1f741ed1a, type: 3}
@@ -4408,7 +4408,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4000010660067686, guid: aede54e5d1ee0434aa928bd58f5f4b1d, type: 2}
       propertyPath: m_RootOrder
-      value: 10
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 114000012231163836, guid: aede54e5d1ee0434aa928bd58f5f4b1d,
         type: 2}
@@ -7559,7 +7559,7 @@ Transform:
   - {fileID: 1459870172}
   - {fileID: 123089541}
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 7
 --- !u!1001 &894117302
 Prefab:
   m_ObjectHideFlags: 0
@@ -12706,7 +12706,7 @@ Prefab:
     - target: {fileID: 224000010541541708, guid: b799c5155f267294288908429538d4da,
         type: 2}
       propertyPath: m_RootOrder
-      value: 11
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 224000010541541708, guid: b799c5155f267294288908429538d4da,
         type: 2}
@@ -12758,6 +12758,16 @@ Prefab:
       propertyPath: m_Pivot.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 224000012415267290, guid: b799c5155f267294288908429538d4da,
+        type: 2}
+      propertyPath: m_AnchoredPosition.y
+      value: -125
+      objectReference: {fileID: 0}
+    - target: {fileID: 224000012494939092, guid: b799c5155f267294288908429538d4da,
+        type: 2}
+      propertyPath: m_AnchoredPosition.y
+      value: -150
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b799c5155f267294288908429538d4da, type: 2}
   m_IsPrefabParent: 0
@@ -12798,7 +12808,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4000013350739706, guid: 4061db95f5216d442add172d4877ce8e, type: 2}
       propertyPath: m_RootOrder
-      value: 9
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 114000011733633494, guid: 4061db95f5216d442add172d4877ce8e,
         type: 2}
@@ -14336,7 +14346,7 @@ Transform:
   - {fileID: 1161152125}
   - {fileID: 566668999}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 5
 --- !u!1001 &1580583754
 Prefab:
   m_ObjectHideFlags: 0
@@ -15941,7 +15951,7 @@ Transform:
   - {fileID: 424944434}
   - {fileID: 603868627}
   m_Father: {fileID: 0}
-  m_RootOrder: 12
+  m_RootOrder: 11
 --- !u!1 &1747622834 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 100004, guid: de705f92f6ac29448bc19fd1f741ed1a, type: 3}
@@ -18432,23 +18442,18 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4000010587108516, guid: 1f7a17ee33bfa284db4222cc530e4097, type: 2}
       propertyPath: m_RootOrder
-      value: 7
-      objectReference: {fileID: 0}
-    - target: {fileID: 114000010082127372, guid: 1f7a17ee33bfa284db4222cc530e4097,
-        type: 2}
-      propertyPath: redirectCost
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 114000010082127372, guid: 1f7a17ee33bfa284db4222cc530e4097,
-        type: 2}
-      propertyPath: beaconCost
-      value: 0
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 114000010516434846, guid: 1f7a17ee33bfa284db4222cc530e4097,
         type: 2}
-      propertyPath: money
-      value: 15
-      objectReference: {fileID: 0}
+      propertyPath: moneyGT
+      value: 
+      objectReference: {fileID: 339797148}
+    - target: {fileID: 114000010082127372, guid: 1f7a17ee33bfa284db4222cc530e4097,
+        type: 2}
+      propertyPath: moneyGT
+      value: 
+      objectReference: {fileID: 339797148}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1f7a17ee33bfa284db4222cc530e4097, type: 2}
   m_IsPrefabParent: 0
