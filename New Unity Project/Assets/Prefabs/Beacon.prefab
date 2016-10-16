@@ -107,7 +107,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   beaconTrans: {fileID: 0}
-  transOffset: 7.5
+  transOffset: 3
   speed: 1
 --- !u!135 &135000010402102068
 SphereCollider:

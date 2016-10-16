@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-sceneSetups: []
-=======
 sceneSetups:
-- path: Assets/Neilsplayhouse.unity
+- path: Assets/Scenes/MAIN.unity
   isLoaded: 1
   isActive: 1
->>>>>>> b93ad5c367cea789b8f435dc25773a670d84c650
