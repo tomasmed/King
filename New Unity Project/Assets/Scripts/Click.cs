@@ -58,11 +58,7 @@ public class Click : MonoBehaviour
                     AudioManager.Instance.PlaySound(noSetObjectBlock);
                 }
             }
-<<<<<<< HEAD
-
-=======
->>>>>>> 9d07567f6b6364c6379eae9c1a2ce7023394add9
-		
+				
             //if RayCast hits ground, but not enough resources
             else
             {

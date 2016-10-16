@@ -1,8 +1,4 @@
 sceneSetups:
-<<<<<<< HEAD
-- path: Assets/Neilsbigplayhouse.unity
-=======
-- path: Assets/Scenes/Dan_Playground.unity
->>>>>>> 9d07567f6b6364c6379eae9c1a2ce7023394add9
+- path: Assets/Neilsplayhouse.unity
   isLoaded: 1
   isActive: 1
