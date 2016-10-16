@@ -468,7 +468,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1000010425313676}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.0020043254, y: -0.3513034, z: -0.06591034}
+  m_LocalPosition: {x: 0.0020043254, y: -0.3513034, z: 11.2}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children:
@@ -787,7 +787,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e1ed879cb71f31c45a54fcb2b4209f9a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  HomeposOb1: {fileID: 1000010630555508, guid: aede54e5d1ee0434aa928bd58f5f4b1d, type: 2}
+  HomeposOb1: {fileID: 1000011606359526, guid: 74f03a8333c4c414a94789fcb084a564, type: 2}
   Beaconthing: {fileID: 0}
 --- !u!114 &114000012721671724
 MonoBehaviour:
