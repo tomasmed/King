@@ -317,7 +317,7 @@ MonoBehaviour:
   sepBlurSpread: 2.5
   quality: 1
   bloomIntensity: 10
-  bloomThreshold: 0.46
+  bloomThreshold: 0.76
   bloomThresholdColor: {r: 1, g: 1, b: 1, a: 1}
   bloomBlurIterations: 2
   hollywoodFlareBlurIterations: 2

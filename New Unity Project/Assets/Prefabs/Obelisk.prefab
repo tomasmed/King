@@ -107,6 +107,7 @@ GameObject:
   - 95: {fileID: 95000010540917802}
   - 54: {fileID: 54000011219117448}
   - 65: {fileID: 65000011045844288}
+  - 114: {fileID: 114000010911018370}
   m_Layer: 0
   m_Name: Obelisk
   m_TagString: Redirector
@@ -455,7 +456,7 @@ Rigidbody:
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
-  m_IsKinematic: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
@@ -488,3 +489,17 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+--- !u!114 &114000010911018370
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000011455184848}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29891755f3457174eb9d77ac9330da14, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  beaconTrans: {fileID: 0}
+  transOffset: 100
+  speed: 45

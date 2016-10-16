@@ -13,7 +13,8 @@ public class ClickSwitch : MonoBehaviour
     private bool placeBeacon;
     private bool placeRedirect;
     public Text moneyGT;
-    public float hitOffset;
+    public float hitOffsetBeacon;
+    public float hitOffsetRedirector;
     public float moveSeconds;
     private GameObject toMove;
 
@@ -72,7 +73,7 @@ public class ClickSwitch : MonoBehaviour
             {
                 //sets Vector3 transform to hit.point, offsets Y value by 'hitOffset' public varable
                 Vector3 hitTransform = hit.point;
-                hitTransform.y -= hitOffset;
+                hitTransform.y -= hitOffsetBeacon;
                 print(hit.point.y); //2.5
                 print(hitTransform.y); //-2.5
 
@@ -108,23 +109,27 @@ public class ClickSwitch : MonoBehaviour
             //if RayCast Hits the ground
             if (Physics.Raycast(ray, out hit) && (hit.collider.name.Equals(Floor.GetComponent<Collider>().name)))
             {
-				
+                //offsets spawn location by offset (positive)
+                Vector3 hitTransform = hit.point;
+                hitTransform.y += hitOffsetRedirector;
+                print(hit.point.y); //2.5
+                print(hitTransform.y); //-2.5
 
-				if (Controller.S.RedirectorisPlaced == true) {
+                if (Controller.S.RedirectorisPlaced == true) {
 					print ("we have a redirector");
 					GameObject tmp = GameObject.Find ("Obelisk(Clone)");
 					Destroy (tmp);
 				}
-                Instantiate(Redirect, hit.point, transform.rotation);
+                Instantiate(Redirect, hitTransform, transform.rotation);
 
-			
 				Controller.S.Redirectorpos = new Vector3 (hit.point.x,hit.point.y,hit.point.z);
 
                 //coins -= redirectCost;
 				Controller.S.money -= redirectCost; //redirectcost
                 moneyGT.text = "Credits :" + Controller.S.money.ToString();
 				print("placing redirector");
-				Controller.S.RedirectorisPlaced = true; 
+                AkSoundEngine.PostEvent("Play_ReDirector", Redirect);
+                Controller.S.RedirectorisPlaced = true; 
 
             }
             //if RayCast hits another object (can't place bc space)
