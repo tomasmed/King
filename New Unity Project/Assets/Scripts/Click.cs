@@ -54,7 +54,7 @@ public class Click : MonoBehaviour
 	
                     AkSoundEngine.PostEvent("Play_Beacon", Beacon);
                     print("beaconsound");
-;                }
+                }
                 //if RayCast hits another object (can't place bc space)
                 else if (hit.collider.name.Equals(Beacon.GetComponent<Collider>().name))
                 {

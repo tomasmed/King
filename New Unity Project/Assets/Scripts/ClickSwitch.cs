@@ -1,22 +1,18 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.UI;
 
 public class ClickSwitch : MonoBehaviour
 {
     public GameObject Beacon;
     public GameObject Redirect;
     public GameObject Floor;
-    public int coins;
+    //public int coins;
     public int beaconCost;
     public int redirectCost;
     private bool placeBeacon;
     private bool placeRedirect;
-    //sound clip to place object
-    public AudioClip setObject;
-    //sound clip when object can't be placed due to something in the way
-    public AudioClip noSetObjectBlock;
-    //sound clip when object can't be placed because we're broke
-    public AudioClip noSetObjectBroke;
+    public Text moneyGT;
 
     void Start()
     {
@@ -62,7 +58,7 @@ public class ClickSwitch : MonoBehaviour
 
     void addBeacon()
     {
-        if (coins >= beaconCost)
+        if (Controller.S.money >= beaconCost)
         {
             Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
             RaycastHit hit;
@@ -70,8 +66,11 @@ public class ClickSwitch : MonoBehaviour
             if (Physics.Raycast(ray, out hit) && (hit.collider.name.Equals(Floor.GetComponent<Collider>().name)))
             {
                 Instantiate(Beacon, hit.point, transform.rotation);
-                coins -= beaconCost;
-                //AudioManager.Instance.PlaySound(setObject);
+                //coins -= beaconCost;
+                Controller.S.money -= beaconCost;
+                moneyGT.text = "Credits :" + Controller.S.money.ToString();
+                AkSoundEngine.PostEvent("Play_Beacon", Beacon);
+                print("beaconsound");
             }
             //if RayCast hits another object (can't place bc space)
             else if ((hit.collider.name.Equals(Beacon.GetComponent<Collider>().name)) || hit.collider.name.Equals(Redirect.GetComponent<Collider>().name))
@@ -88,7 +87,7 @@ public class ClickSwitch : MonoBehaviour
 
     void addRedirect()
     {
-        if (coins >= redirectCost)
+        if (Controller.S.money >= redirectCost)
         {
             Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
             RaycastHit hit;
@@ -96,8 +95,9 @@ public class ClickSwitch : MonoBehaviour
             if (Physics.Raycast(ray, out hit) && (hit.collider.name.Equals(Floor.GetComponent<Collider>().name)))
             {
                 Instantiate(Redirect, hit.point, transform.rotation);
-                coins -= redirectCost;
-                //AudioManager.Instance.PlaySound(setObject);
+                //coins -= redirectCost;
+                Controller.S.money -= beaconCost;
+                moneyGT.text = "Credits :" + Controller.S.money.ToString();
             }
             //if RayCast hits another object (can't place bc space)
             else if ((hit.collider.name.Equals(Beacon.GetComponent<Collider>().name)) || hit.collider.name.Equals(Redirect.GetComponent<Collider>().name))
