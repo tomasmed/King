@@ -80,6 +80,25 @@ public class IntoBard : MonoBehaviour {
 			}
 		} 
 
+		if (other.tag == "Bard") {
+			
+			Debug.Log ("Agent is following");
+			agent.SetDestination(other.transform.position);  //following code 
+			print(other.transform.position);
+			//agent.Stop (); //stopping
+		}
+
+		if (other.tag == "Nomovebard") {
+
+			Debug.Log ("Agent is stopping");
+			//agent.SetDestination(other.transform.position);  //following code 
+			//print(other.transform.position);
+			agent.Stop (); //stopping
+		}
+
+
+
+
 		///if redirectbool is active 
 		/// 	take agentNav and set to redirect node pos 
 		// t
@@ -89,15 +108,23 @@ public class IntoBard : MonoBehaviour {
 	
 	}
 
-	void OnTriggerStay(Collider other){
+	//void OnTriggerExit(Collider other){
 
-		if (other.tag == "Bard") {
-		Debug.Log ("Agent is following");
+		// (other.tag == "Bard") {
+		//Debug.Log ("Agent is following");
 		//agent.SetDestination(HomeposOb1.transform.position);  //following code 
-		print(other.transform.position);
-		agent.Stop (); //stopping
-		}
-	}
+		//print(other.transform.position);
+		//agent.Stop (); //stopping
+		//}
+
+		//if (other.tag == "Bard") {
+
+			//Debug.Log ("Agent is following");
+			/////agent.SetDestination(other.transform.position);  //following code 
+			////print(other.transform.position);
+			/////agent.Stop (); //stopping
+		//}
+	//}
 		
 
 

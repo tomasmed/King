@@ -11,6 +11,7 @@ TagManager:
   - Agent
   - Beacon
   - Redirector
+  - Nomovebard
   layers:
   - Default
   - TransparentFX
