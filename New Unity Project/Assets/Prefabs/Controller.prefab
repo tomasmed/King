@@ -53,14 +53,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4c7c58411451a3459b350ec531b773b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Beacon: {fileID: 1000011189829822, guid: aeee940e83d71ef40bf664c11cdbab92, type: 2}
-  Redirect: {fileID: 1000013076034300, guid: e936607618ec62d4ea43d511cf29ddad, type: 2}
+  Beacon: {fileID: 1000010065324390, guid: 43a44b20765e7ea449b5f75f452e65d2, type: 2}
+  Redirect: {fileID: 1000011455184848, guid: 7adb6df6783dc2c428e34fa240b132e8, type: 2}
   Floor: {fileID: 1000010795967744, guid: f0dd9b83aba50c24fac3717022df3385, type: 2}
-  moneyGT: {fileID: 114000013018299992, guid: b799c5155f267294288908429538d4da, type: 2}
-  coins: 15
-  beaconCost: 3
-  redirectCost: 5
-  moneyGT: {fileID: 114000013018299992, guid: b799c5155f267294288908429538d4da, type: 2}
+  beaconCost: 5
+  redirectCost: 0
+  moneyGT: {fileID: 0}
+  hitOffset: 0
+  moveSeconds: 0
 --- !u!114 &114000010516434846
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -73,8 +73,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   score: 0
-  money: 0
-  moneyGT: {fileID: 114000013018299992, guid: b799c5155f267294288908429538d4da, type: 2}
+  money: 15
+  RedirectorisPlaced: 0
+  Redirectorpos: {x: 0, y: 0, z: 0}
   moneyGT: {fileID: 0}
 --- !u!114 &114000010866011554
 MonoBehaviour:
@@ -82,7 +83,7 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1000012805098372}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 26e5dadeaf6131f438f589854124769b, type: 3}
   m_Name: 

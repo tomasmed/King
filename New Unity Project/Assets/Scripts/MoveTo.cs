@@ -67,10 +67,11 @@ public class MoveTo : MonoBehaviour {
 
         ///transform.position = vertices [Random.Range (10, 600)];
 
-		agent.SetDestination(transformList[UnityEngine.Random.Range(10,500)].transform.position); 
+		agent.SetDestination(transformList[UnityEngine.Random.Range(10,2480)].transform.position); 
 
-		//print ("agent");
-		//print(agent.destination);
+		print ("agent");
+		print (agent.remainingDistance);
+		print(agent.destination);
 
 	}
 
@@ -87,7 +88,7 @@ public class MoveTo : MonoBehaviour {
             transform.forward = targetDir;
             transform.Rotate(Vector3.down, 90, 0);
 			//thisgameObject.BeaconPath = false;
-			print ("agent changes direction randomly"); 
+			//print ("agent changes direction randomly"); 
             //print(agent.destination);
 		}
 }

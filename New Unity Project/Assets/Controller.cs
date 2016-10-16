@@ -17,7 +17,7 @@ public class Controller : MonoBehaviour {
 	void Start () {
 		score = 0;
 		//initialize money + score
-		money = 6; 
+		//money = 6; 
 		RedirectorisPlaced = false;
 	}
 	

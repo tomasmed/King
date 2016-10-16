@@ -47,9 +47,12 @@ public class IntoBard : MonoBehaviour {
 		if (other.tag == "Beacon") {
 			
 			agent.SetDestination(HomeposOb1.transform.position);
+			print (agent.destination);
 			if(Redirector == true){
+				print ("redirector is on");
 				agent.SetDestination(Controller.S.Redirectorpos);
 			}
+
 			BeaconPath = true;
 			print ("Agent is inside beacon");
 			print ("redirecting to home");

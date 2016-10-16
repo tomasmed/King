@@ -80,7 +80,7 @@ public class ClickSwitch : MonoBehaviour
                 Instantiate(Beacon, hitTransform, transform.rotation);
                 //coins -= beaconCost;
 
-                Controller.S.money -= beaconCost;
+				Controller.S.money = Controller.S.money - beaconCost;
                 moneyGT.text = "Credits :" + Controller.S.money.ToString();
                 AkSoundEngine.PostEvent("Play_Beacon", Beacon);
             }

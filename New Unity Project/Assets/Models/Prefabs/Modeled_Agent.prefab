@@ -140,13 +140,14 @@ GameObject:
   m_Component:
   - 4: {fileID: 4000010721720146}
   - 95: {fileID: 95000011073622924}
-  - 54: {fileID: 54000013643496140}
   - 195: {fileID: 195000013315187500}
   - 114: {fileID: 114000012721671724}
   - 114: {fileID: 114000012667909260}
+  - 54: {fileID: 54000011870206940}
+  - 136: {fileID: 136000013651707852}
   m_Layer: 0
   m_Name: Modeled_Agent
-  m_TagString: Untagged
+  m_TagString: Agent
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -466,8 +467,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1000010425313676}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.57, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.0020043254, y: -0.3513034, z: -0.06591034}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children:
@@ -743,7 +744,7 @@ Transform:
   - {fileID: 4000010626263130}
   m_Father: {fileID: 4000012081464744}
   m_RootOrder: 0
---- !u!54 &54000013643496140
+--- !u!54 &54000011870206940
 Rigidbody:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -787,6 +788,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   HomeposOb1: {fileID: 1000010630555508, guid: aede54e5d1ee0434aa928bd58f5f4b1d, type: 2}
+  Beaconthing: {fileID: 0}
 --- !u!114 &114000012721671724
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -799,8 +801,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   vertices: []
-  xSize: 25
-  ySize: 25
+  xSize: 55
+  ySize: 50
   transformList: []
 --- !u!136 &136000012938780284
 CapsuleCollider:
@@ -809,12 +811,25 @@ CapsuleCollider:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1000010616393188}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
-  m_Radius: 0.67959917
-  m_Height: 2.0067275
+  m_Radius: 0.5
+  m_Height: 1
   m_Direction: 1
-  m_Center: {x: -0.05870443, y: -0.49374685, z: -0.08582205}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!136 &136000013651707852
+CapsuleCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000010425313676}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  m_Radius: 0.5
+  m_Height: 1
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!137 &137000010741032208
 SkinnedMeshRenderer:
   m_ObjectHideFlags: 1
@@ -885,7 +900,7 @@ NavMeshAgent:
   m_GameObject: {fileID: 1000010425313676}
   m_Enabled: 1
   m_Radius: 0.5
-  m_Speed: 3.5
+  m_Speed: 1.5
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120

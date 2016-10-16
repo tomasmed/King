@@ -526,7 +526,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1000012274969562}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.24, y: 0.57, z: 0}
+  m_LocalPosition: {x: 17.484016, y: 0.5, z: -16.145653}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children:
@@ -782,14 +782,14 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1000012274969562}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: cd5631faf0534ec4da7bceb29decb9d9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   vertices: []
-  xSize: 25
-  ySize: 25
+  xSize: 55
+  ySize: 50
   transformList: []
 --- !u!114 &114000011971935526
 MonoBehaviour:
@@ -840,7 +840,7 @@ SkinnedMeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2100000, guid: 09816a476ff1c8d4ea164d71c1d84773, type: 2}
+  - {fileID: 2100000, guid: b702c4b34e55ff44a977d249fa11066a, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_ProbeAnchor: {fileID: 0}
