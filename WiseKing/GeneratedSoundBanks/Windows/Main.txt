@@ -1,6 +1,10 @@
 Event	ID	Name			Wwise Object Path	Notes
+	433710372	Play_Music_Loop			\Default Work Unit\Play_Music_Loop	
+	2837384057	Stop_Music			\Default Work Unit\Stop_Music	
 	4126284998	Play_Beacon			\Default Work Unit\Play_Beacon	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	314693019	80sLoop_Loopable	C:\Users\Dan Braunstein\Documents\GitHub\King\WiseKing\.cache\Windows\SFX\80sLoop_Loopable_12F9BD65.wem		\Actor-Mixer Hierarchy\Default Work Unit\80sLoop_Loopable		5210728
+	546985149	80sLoop_Start	C:\Users\Dan Braunstein\Documents\GitHub\King\WiseKing\.cache\Windows\SFX\80sLoop_Loopable_002BAF3A.wem		\Actor-Mixer Hierarchy\Default Work Unit\80sLoop_Start		2366924
 	930085419	Beacon	C:\Users\Dan Braunstein\Documents\GitHub\King\WiseKing\.cache\Windows\SFX\Beacon_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Beacon		330064
 

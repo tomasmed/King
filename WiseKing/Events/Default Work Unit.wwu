@@ -14,6 +14,53 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_Music_Loop" ID="{9783DC9D-58F1-4555-9B6C-B3B9A3CA8378}">
+					<ChildrenList>
+						<Action Name="Play" ID="{8B2965DC-D889-4A4E-AEE7-8CF41654E7DA}" ShortID="366619857" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{DC809F88-0270-4380-B95C-2DFDC4E22F93}" Global="false">
+									<ObjectRef Name="80sLoop_Start" ID="{8A479EE4-7970-4CC7-A18A-E38AB45033A4}" WorkUnitID="{C6000DA4-7795-45DE-811F-572F08C7BEB0}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Play" ID="{D571CADF-0AE8-4014-B098-1B15809DE3A8}" ShortID="3738372" Type="Play" Scope="One" Global="false">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="13.418"/>
+							</PropertyList>
+							<ElementList>
+								<Element ID="{0BAB80A6-46A0-4943-B31A-BCE6FD98DDC3}" Global="false">
+									<ObjectRef Name="80sLoop_Loopable" ID="{5912FAAC-12CE-4444-991F-0EFBD1032D08}" WorkUnitID="{C6000DA4-7795-45DE-811F-572F08C7BEB0}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_Music" ID="{AF1DDB07-37CB-4CF1-B828-69A42C3752F6}">
+					<ChildrenList>
+						<Action Name="Stop" ID="{3BBE1AA0-FEF3-475C-BBD0-E0B498D3623A}" ShortID="1016867207" Type="Stop" Scope="One" Global="false">
+							<PropertyList>
+								<Property Name="FadeCurve" Type="int16" Value="3"/>
+								<Property Name="FadeTime" Type="Real64" Value="1.5"/>
+							</PropertyList>
+							<ElementList>
+								<Element ID="{5DC216AE-3551-42F2-A51A-E29FE42919D7}" Global="false">
+									<ObjectRef Name="80sLoop_Loopable" ID="{5912FAAC-12CE-4444-991F-0EFBD1032D08}" WorkUnitID="{C6000DA4-7795-45DE-811F-572F08C7BEB0}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Stop" ID="{AB55212E-93F4-4828-AEF6-5D5B2840CB18}" ShortID="27608167" Type="Stop" Scope="One" Global="false">
+							<PropertyList>
+								<Property Name="FadeCurve" Type="int16" Value="3"/>
+								<Property Name="FadeTime" Type="Real64" Value="1.5"/>
+							</PropertyList>
+							<ElementList>
+								<Element ID="{C6EA91B7-7F6D-4AAD-AB9F-63666739F239}" Global="false">
+									<ObjectRef Name="80sLoop_Start" ID="{8A479EE4-7970-4CC7-A18A-E38AB45033A4}" WorkUnitID="{C6000DA4-7795-45DE-811F-572F08C7BEB0}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

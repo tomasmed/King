@@ -14,6 +14,8 @@ namespace AK
     namespace EVENTS
     {
         static const AkUniqueID PLAY_BEACON = 4126284998U;
+        static const AkUniqueID PLAY_MUSIC_LOOP = 433710372U;
+        static const AkUniqueID STOP_MUSIC = 2837384057U;
     } // namespace EVENTS
 
     namespace BANKS
