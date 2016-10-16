@@ -22,6 +22,7 @@ GameObject:
   - 114: {fileID: 114000010866011554}
   - 114: {fileID: 114000010516434846}
   - 114: {fileID: 114000010082127372}
+  - 114: {fileID: 114000011802249746}
   m_Layer: 0
   m_Name: Controller
   m_TagString: Untagged
@@ -56,7 +57,7 @@ MonoBehaviour:
   Beacon: {fileID: 1000010065324390, guid: 43a44b20765e7ea449b5f75f452e65d2, type: 2}
   Redirect: {fileID: 1000011455184848, guid: 7adb6df6783dc2c428e34fa240b132e8, type: 2}
   Floor: {fileID: 1000010795967744, guid: f0dd9b83aba50c24fac3717022df3385, type: 2}
-  beaconCost: 5
+  beaconCost: 0
   redirectCost: 0
   moneyGT: {fileID: 0}
   hitOffset: 0
@@ -89,3 +90,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   time: 10
+--- !u!114 &114000011802249746
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000012805098372}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 868f66360069a2b49aa05e23e336af8b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

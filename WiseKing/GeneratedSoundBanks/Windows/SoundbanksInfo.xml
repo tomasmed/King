@@ -23,12 +23,17 @@
 			<IncludedEvents>
 				<Event Id="4126284998" Name="Play_Beacon" ObjectPath="\Events\Default Work Unit\Play_Beacon"/>
 				<Event Id="433710372" Name="Play_Music_Loop" ObjectPath="\Events\Default Work Unit\Play_Music_Loop"/>
+				<Event Id="2330159053" Name="Play_ReDirector" ObjectPath="\Events\Default Work Unit\Play_ReDirector"/>
 				<Event Id="2837384057" Name="Stop_Music" ObjectPath="\Events\Default Work Unit\Stop_Music" MaxAttenuation="0.000000"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
 				<File Id="314693019" Language="SFX">
 					<ShortName>80sLoop_Loopable.wav</ShortName>
 					<Path>SFX\80sLoop_Loopable_12F9BD65.wem</Path>
+				</File>
+				<File Id="456771147" Language="SFX">
+					<ShortName>ReDirector.wav</ShortName>
+					<Path>SFX\ReDirector_9E69E797.wem</Path>
 				</File>
 				<File Id="546985149" Language="SFX">
 					<ShortName>80sLoop_Loopable.wav</ShortName>
