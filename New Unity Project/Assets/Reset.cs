@@ -13,7 +13,20 @@ public class Reset : MonoBehaviour {
 	void Update () {
         if(Input.GetKeyDown("p"))
         {
-            SceneManager.LoadScene("MAIN");
+            SceneManager.LoadScene("Main_Tomas");
         }
+
+
+        if (Controller.S.score == 5)
+        {
+            print("win");
+            SceneManager.LoadScene("WIN");
+        }
+
     }
+
+
+
+    
+
 }

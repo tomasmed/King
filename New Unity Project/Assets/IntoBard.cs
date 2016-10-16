@@ -47,6 +47,7 @@ public class IntoBard : MonoBehaviour {
 		if (other.tag == "Beacon") {
 			
 			agent.SetDestination(HomeposOb1.transform.position);
+            AkSoundEngine.PostEvent("Play_FM_Beep" , agent.gameObject);
 			//print (agent.destination);
 			if(Redirector == true){
 				//print ("redirector is on");

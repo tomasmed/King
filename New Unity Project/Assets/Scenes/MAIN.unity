@@ -37,7 +37,7 @@ RenderSettings:
   m_ReflectionIntensity: 0.547
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.023958836, g: 0.026754396, b: 0.031240331, a: 0.547}
+  m_IndirectSpecularColor: {r: 0.02395882, g: 0.026754398, b: 0.031240325, a: 0.547}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -13053,56 +13053,6 @@ Prefab:
       propertyPath: m_Pivot.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 224000012415267290, guid: b799c5155f267294288908429538d4da,
-        type: 2}
-      propertyPath: m_AnchoredPosition.y
-      value: -173.1
-      objectReference: {fileID: 0}
-    - target: {fileID: 224000012494939092, guid: b799c5155f267294288908429538d4da,
-        type: 2}
-      propertyPath: m_AnchoredPosition.y
-      value: -196.8
-      objectReference: {fileID: 0}
-    - target: {fileID: 114000012605928504, guid: b799c5155f267294288908429538d4da,
-        type: 2}
-      propertyPath: m_Color.r
-      value: 0.8745098
-      objectReference: {fileID: 0}
-    - target: {fileID: 114000012605928504, guid: b799c5155f267294288908429538d4da,
-        type: 2}
-      propertyPath: m_Color.g
-      value: 0.8745098
-      objectReference: {fileID: 0}
-    - target: {fileID: 114000012605928504, guid: b799c5155f267294288908429538d4da,
-        type: 2}
-      propertyPath: m_Color.b
-      value: 0.8745098
-      objectReference: {fileID: 0}
-    - target: {fileID: 114000012605928504, guid: b799c5155f267294288908429538d4da,
-        type: 2}
-      propertyPath: m_Color.a
-      value: 0.8745098
-      objectReference: {fileID: 0}
-    - target: {fileID: 114000013018299992, guid: b799c5155f267294288908429538d4da,
-        type: 2}
-      propertyPath: m_Color.r
-      value: 0.8745098
-      objectReference: {fileID: 0}
-    - target: {fileID: 114000013018299992, guid: b799c5155f267294288908429538d4da,
-        type: 2}
-      propertyPath: m_Color.g
-      value: 0.8745098
-      objectReference: {fileID: 0}
-    - target: {fileID: 114000013018299992, guid: b799c5155f267294288908429538d4da,
-        type: 2}
-      propertyPath: m_Color.b
-      value: 0.8745098
-      objectReference: {fileID: 0}
-    - target: {fileID: 114000013018299992, guid: b799c5155f267294288908429538d4da,
-        type: 2}
-      propertyPath: m_Color.a
-      value: 0.8745098
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b799c5155f267294288908429538d4da, type: 2}
   m_IsPrefabParent: 0
@@ -18888,6 +18838,11 @@ Prefab:
       propertyPath: m_RootOrder
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 114000010866011554, guid: 1f7a17ee33bfa284db4222cc530e4097,
+        type: 2}
+      propertyPath: TimerGob
+      value: 
+      objectReference: {fileID: 2121599738}
     - target: {fileID: 114000010516434846, guid: 1f7a17ee33bfa284db4222cc530e4097,
         type: 2}
       propertyPath: moneyGT
@@ -18898,26 +18853,6 @@ Prefab:
       propertyPath: moneyGT
       value: 
       objectReference: {fileID: 339797148}
-    - target: {fileID: 114000010082127372, guid: 1f7a17ee33bfa284db4222cc530e4097,
-        type: 2}
-      propertyPath: hitOffsetBeacon
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 114000010082127372, guid: 1f7a17ee33bfa284db4222cc530e4097,
-        type: 2}
-      propertyPath: hitOffsetRedirector
-      value: 100
-      objectReference: {fileID: 0}
-    - target: {fileID: 114000010866011554, guid: 1f7a17ee33bfa284db4222cc530e4097,
-        type: 2}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 114000010866011554, guid: 1f7a17ee33bfa284db4222cc530e4097,
-        type: 2}
-      propertyPath: TimerGob
-      value: 
-      objectReference: {fileID: 2121599738}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1f7a17ee33bfa284db4222cc530e4097, type: 2}
   m_IsPrefabParent: 0

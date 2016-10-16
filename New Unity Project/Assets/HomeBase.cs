@@ -20,7 +20,7 @@ public class HomeBase : MonoBehaviour {
 
 		//GameObject moneyGob = GameObject.Find ("MoneyCount"); 
 		//moneyGT = moneyGob.GetComponent <Text>(); 
-		moneyGT.text = "Credits: 15"; 
+		moneyGT.text = "Credits: " + Controller.S.money.ToString(); 
 	}
 
 

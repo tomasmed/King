@@ -60,7 +60,8 @@ MonoBehaviour:
   beaconCost: 0
   redirectCost: 0
   moneyGT: {fileID: 0}
-  hitOffset: 0
+  hitOffsetBeacon: 4
+  hitOffsetRedirector: 100
   moveSeconds: 0
 --- !u!114 &114000010516434846
 MonoBehaviour:
@@ -75,6 +76,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   score: 0
   money: 15
+  timer: 0
   RedirectorisPlaced: 0
   Redirectorpos: {x: 0, y: 0, z: 0}
   moneyGT: {fileID: 0}
@@ -84,12 +86,12 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1000012805098372}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 26e5dadeaf6131f438f589854124769b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  time: 10
+  TimerGob: {fileID: 0}
 --- !u!114 &114000011802249746
 MonoBehaviour:
   m_ObjectHideFlags: 1
