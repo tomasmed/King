@@ -25,11 +25,11 @@ public class IntoBard : MonoBehaviour {
 
 		if (Controller.S.RedirectorisPlaced == true) {
 			Redirector = true;
-			if (BeaconPath == true && Redirecttouch == false) {
+			/*if (BeaconPath == true && Redirecttouch == false) {
 				print ("redirect is on");
 				agent = GetComponent<NavMeshAgent> ();
 				agent.SetDestination (Controller.S.Redirectorpos);
-			}
+			}*/
 		}
 
 
@@ -45,7 +45,11 @@ public class IntoBard : MonoBehaviour {
 	void OnTriggerEnter(Collider other){
 		agent = GetComponent<NavMeshAgent>();
 		if (other.tag == "Beacon") {
+			
 			agent.SetDestination(HomeposOb1.transform.position);
+			if(Redirector == true){
+				agent.SetDestination(Controller.S.Redirectorpos);
+			}
 			BeaconPath = true;
 			print ("Agent is inside beacon");
 			print ("redirecting to home");
