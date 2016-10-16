@@ -444,49 +444,6 @@ Prefab:
       propertyPath: m_Pivot.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 114000012370536322, guid: b799c5155f267294288908429538d4da,
-        type: 2}
-      propertyPath: m_Text
-      value: 'Time Left: '
-      objectReference: {fileID: 0}
-    - target: {fileID: 114000012370536322, guid: b799c5155f267294288908429538d4da,
-        type: 2}
-      propertyPath: m_FontData.m_Font
-      value: 
-      objectReference: {fileID: 12800000, guid: f8cc718181da2ab4ca939697ae6912a1,
-        type: 3}
-    - target: {fileID: 114000012370536322, guid: b799c5155f267294288908429538d4da,
-        type: 2}
-      propertyPath: m_Color.r
-      value: 0.8745098
-      objectReference: {fileID: 0}
-    - target: {fileID: 114000012370536322, guid: b799c5155f267294288908429538d4da,
-        type: 2}
-      propertyPath: m_Color.g
-      value: 0.8745098
-      objectReference: {fileID: 0}
-    - target: {fileID: 114000012370536322, guid: b799c5155f267294288908429538d4da,
-        type: 2}
-      propertyPath: m_Color.b
-      value: 0.8745098
-      objectReference: {fileID: 0}
-    - target: {fileID: 114000012370536322, guid: b799c5155f267294288908429538d4da,
-        type: 2}
-      propertyPath: m_Color.a
-      value: 0.8745098
-      objectReference: {fileID: 0}
-    - target: {fileID: 114000011752590000, guid: b799c5155f267294288908429538d4da,
-        type: 2}
-      propertyPath: m_Text
-      value: 'Press ''1'' to place a <color=purple>Magenta (Cost: 3 credits)</color>
-
-        Press ''2'' to place a <color=lime>Redirector (Cost: 5 credits)</color>'
-      objectReference: {fileID: 0}
-    - target: {fileID: 114000011752590000, guid: b799c5155f267294288908429538d4da,
-        type: 2}
-      propertyPath: m_FontData.m_RichText
-      value: 1
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b799c5155f267294288908429538d4da, type: 2}
   m_IsPrefabParent: 0

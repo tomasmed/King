@@ -5,7 +5,8 @@ using UnityEngine.UI;
 public class Controller : MonoBehaviour {
 	public static Controller S;
 	public int score; 
-	public int money; 
+	public int money;
+    public double timer;
 	public bool RedirectorisPlaced; 
 	public Vector3 Redirectorpos; 
 	// Use tis for initialization
@@ -16,6 +17,7 @@ public class Controller : MonoBehaviour {
 
 	void Start () {
 		score = 0;
+        timer = 60;
 		//initialize money + score
 		//money = 6; 
 		RedirectorisPlaced = false;

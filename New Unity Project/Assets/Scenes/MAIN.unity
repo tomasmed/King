@@ -18908,6 +18908,16 @@ Prefab:
       propertyPath: hitOffsetRedirector
       value: 100
       objectReference: {fileID: 0}
+    - target: {fileID: 114000010866011554, guid: 1f7a17ee33bfa284db4222cc530e4097,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000010866011554, guid: 1f7a17ee33bfa284db4222cc530e4097,
+        type: 2}
+      propertyPath: TimerGob
+      value: 
+      objectReference: {fileID: 2121599738}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1f7a17ee33bfa284db4222cc530e4097, type: 2}
   m_IsPrefabParent: 0
@@ -19174,6 +19184,11 @@ Light:
 Transform:
   m_PrefabParentObject: {fileID: 400002, guid: de705f92f6ac29448bc19fd1f741ed1a, type: 3}
   m_PrefabInternal: {fileID: 877636317}
+--- !u!1 &2121599738 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1000013027726058, guid: b799c5155f267294288908429538d4da,
+    type: 2}
+  m_PrefabInternal: {fileID: 1386457537}
 --- !u!1001 &2132914844
 Prefab:
   m_ObjectHideFlags: 0

@@ -1,4 +1,8 @@
 sceneSetups:
+<<<<<<< HEAD
 - path: Assets/Scenes/Tutorial_Cutscene.unity
+=======
+- path: Assets/Scenes/MAIN.unity
+>>>>>>> 5849e6a2d6a295f137314e9dd7462087b97ceb85
   isLoaded: 1
   isActive: 1
