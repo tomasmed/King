@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="11" SoundbankVersion="118">
+	<RootPaths>
+		<ProjectRoot>C:\Users\Dan Braunstein\Documents\GitHub\King\WiseKing\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\Dan Braunstein\Documents\GitHub\King\WiseKing\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\Dan Braunstein\Documents\GitHub\King\WiseKing\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>C:\Users\Dan Braunstein\Documents\GitHub\King\WiseKing\GeneratedSoundBanks\Windows\</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="3161908922" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
+			<ShortName>Main</ShortName>
+			<Path>Main.bnk</Path>
+			<IncludedEvents>
+				<Event Id="4126284998" Name="Play_Beacon" ObjectPath="\Events\Default Work Unit\Play_Beacon"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="930085419" Language="SFX">
+					<ShortName>Beacon.wav</ShortName>
+					<Path>SFX\Beacon_9E69E797.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

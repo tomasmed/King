@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	4126284998	Play_Beacon			\Default Work Unit\Play_Beacon	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	930085419	Beacon	C:\Users\Dan Braunstein\Documents\GitHub\King\WiseKing\.cache\Windows\SFX\Beacon_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Beacon		330064
+
