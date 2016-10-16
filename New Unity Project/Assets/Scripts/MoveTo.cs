@@ -22,13 +22,13 @@ public class MoveTo : MonoBehaviour {
 	private void Generate () {
 		vertices = new Vector3[(xSize + 1) * (ySize + 1)];
 
-		print (transformListOb.GetComponent<Scripty> ().tList.Count);
+		//print (transformListOb.GetComponent<Scripty> ().tList.Count);
 
 		for (int y = 0; y < transformListOb.GetComponent<Scripty> ().tList.Count; y++) {
 			transformList.Add (transformListOb.GetComponent<Scripty> ().tList[y]);
 		}
 
-		print (transformList.Count);
+		//print (transformList.Count);
 	}
 
 	// Use this for initialization
@@ -61,7 +61,7 @@ public class MoveTo : MonoBehaviour {
 			return;
 		///sets the agent to go to a random position 
 
-		print ("gotonext");
+		//print ("gotonext");
 		//GameObject tmp = new GameObject ("tempNode");
 
 
@@ -69,9 +69,9 @@ public class MoveTo : MonoBehaviour {
 
 		agent.SetDestination(transformList[UnityEngine.Random.Range(10,2480)].transform.position); 
 
-		print ("agent");
-		print (agent.remainingDistance);
-		print(agent.destination);
+		//print ("agent");
+		//print (agent.remainingDistance);
+		//print(agent.destination);
 
 	}
 

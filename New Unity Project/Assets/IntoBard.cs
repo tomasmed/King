@@ -47,19 +47,19 @@ public class IntoBard : MonoBehaviour {
 		if (other.tag == "Beacon") {
 			
 			agent.SetDestination(HomeposOb1.transform.position);
-			print (agent.destination);
+			//print (agent.destination);
 			if(Redirector == true){
-				print ("redirector is on");
+				//print ("redirector is on");
 				agent.SetDestination(Controller.S.Redirectorpos);
 			}
 
 			BeaconPath = true;
-			print ("Agent is inside beacon");
-			print ("redirecting to home");
+			//print ("Agent is inside beacon");
+			//print ("redirecting to home");
 		}
 
 		if (other.tag == "HomeBase") {
-			Debug.Log ("Agent is home : )");
+			//Debug.Log ("Agent is home : )");
 			//agent.SetDestination(HomeposOb1.transform.position);
 			//calls UI text to update it  
 			GameObject scoreGob = GameObject.Find ("HighScore"); 
@@ -74,7 +74,7 @@ public class IntoBard : MonoBehaviour {
 			Redirecttouch = true;
 			//once agents hit the redirect they should move back to the castle.
 			agent.SetDestination(HomeposOb1.transform.position);  //following code 
-			print ("agent touched pillar, going home"); //stopping 
+			//print ("agent touched pillar, going home"); //stopping 
 			
 			
 			}
@@ -82,15 +82,15 @@ public class IntoBard : MonoBehaviour {
 
 		if (other.tag == "Bard") {
 			
-			Debug.Log ("Agent is following");
+			//Debug.Log ("Agent is following");
 			agent.SetDestination(other.transform.position);  //following code 
-			print(other.transform.position);
+			//print(other.transform.position);
 			//agent.Stop (); //stopping
 		}
 
 		if (other.tag == "Nomovebard") {
 
-			Debug.Log ("Agent is stopping");
+			//Debug.Log ("Agent is stopping");
 			//agent.SetDestination(other.transform.position);  //following code 
 			//print(other.transform.position);
 			agent.Stop (); //stopping
