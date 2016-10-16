@@ -13,6 +13,7 @@ public class IntoBard : MonoBehaviour {
 
 	public static bool BeaconPath = false;
 	public static bool Redirector = false; 
+	public static bool Redirecttouch = false;
 
 	// Use this for initialization
 	void Start () {
@@ -24,7 +25,7 @@ public class IntoBard : MonoBehaviour {
 
 		if (Controller.S.RedirectorisPlaced == true) {
 			Redirector = true;
-			if (BeaconPath == true) {
+			if (BeaconPath == true && Redirecttouch == false) {
 				print ("redirect is on");
 				agent = GetComponent<NavMeshAgent> ();
 				agent.SetDestination (Controller.S.Redirectorpos);
@@ -61,11 +62,14 @@ public class IntoBard : MonoBehaviour {
 			Destroy(gameObject); //gameobject is Agent 
 		}
 
-		if (other.tag == "redirect") {
+		if (other.tag == "Redirector") {
 			if(BeaconPath == true){
+			Redirecttouch = true;
 			//once agents hit the redirect they should move back to the castle.
 			agent.SetDestination(HomeposOb1.transform.position);  //following code 
-			print ("agent is redirecting to pillar"); //stopping 
+			print ("agent touched pillar, going home"); //stopping 
+			
+			
 			}
 		} 
 
