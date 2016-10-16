@@ -1,8 +1,4 @@
 sceneSetups:
-<<<<<<< HEAD
-- path: Assets/Scenes/HannaUIfuckery.unity
-=======
-- path: Assets/Scenes/Main_Tomas.unity
->>>>>>> 95004d4c41c94c62701618746e7406ef5246052d
+- path: Assets/Scenes/Tutorial_Cutscene.unity
   isLoaded: 1
   isActive: 1
