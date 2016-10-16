@@ -1,2 +1,158 @@
-Base path: C:/Program Files/Unity/Editor/Data
+Base path: D:/Unity5/Editor/Data
 Cmd: getPlatforms
+Cmd: preprocess
+  insize=9227 outsize=2043 ok=1
+Cmd: preprocess
+  insize=11029 outsize=663 ok=1
+Cmd: preprocess
+  insize=1401 outsize=473 ok=1
+Cmd: preprocess
+  insize=435 outsize=435 ok=1
+Cmd: preprocess
+  insize=1615 outsize=2303 ok=1
+Cmd: preprocess
+  insize=1131 outsize=407 ok=1
+Cmd: preprocess
+  insize=11318 outsize=798 ok=1
+Cmd: preprocess
+  insize=1689 outsize=334 ok=1
+Cmd: preprocess
+  insize=930 outsize=330 ok=1
+Cmd: preprocess
+  insize=993 outsize=289 ok=1
+Cmd: preprocess
+  insize=2050 outsize=467 ok=1
+Cmd: preprocess
+  insize=1386 outsize=387 ok=1
+Cmd: preprocess
+  insize=3925 outsize=639 ok=1
+Cmd: preprocess
+  insize=1454 outsize=2247 ok=1
+Cmd: preprocess
+  insize=1230 outsize=384 ok=1
+Cmd: preprocess
+  insize=6635 outsize=781 ok=1
+Cmd: preprocess
+  insize=1301 outsize=289 ok=1
+Cmd: preprocess
+  insize=1044 outsize=1035 ok=1
+Cmd: preprocess
+  insize=2913 outsize=753 ok=1
+Cmd: preprocess
+  insize=883 outsize=277 ok=1
+Cmd: preprocess
+  insize=1513 outsize=365 ok=1
+Cmd: preprocess
+  insize=1460 outsize=325 ok=1
+Cmd: preprocess
+  insize=1868 outsize=255 ok=1
+Cmd: preprocess
+  insize=1409 outsize=330 ok=1
+Cmd: preprocess
+  insize=1323 outsize=303 ok=1
+Cmd: preprocess
+  insize=2298 outsize=619 ok=1
+Cmd: preprocess
+  insize=966 outsize=252 ok=1
+Cmd: preprocess
+  insize=701 outsize=302 ok=1
+Cmd: preprocess
+  insize=6615 outsize=1036 ok=1
+Cmd: preprocess
+  insize=32860 outsize=255 ok=1
+Cmd: preprocess
+  insize=1199 outsize=241 ok=1
+Cmd: preprocess
+  insize=4371 outsize=504 ok=1
+Cmd: preprocess
+  insize=992 outsize=248 ok=1
+Cmd: preprocess
+  insize=5828 outsize=1778 ok=1
+Cmd: preprocess
+  insize=13377 outsize=1893 ok=1
+Cmd: preprocess
+  insize=1025 outsize=333 ok=1
+Cmd: preprocess
+  insize=6203 outsize=732 ok=1
+Cmd: preprocess
+  insize=2834 outsize=762 ok=1
+Cmd: preprocess
+  insize=11756 outsize=2579 ok=1
+Cmd: preprocess
+  insize=2701 outsize=1156 ok=1
+Cmd: preprocess
+  insize=13869 outsize=2311 ok=1
+Cmd: preprocess
+  insize=1909 outsize=438 ok=1
+Cmd: preprocess
+  insize=1568 outsize=642 ok=1
+Cmd: preprocess
+  insize=1944 outsize=277 ok=1
+Cmd: preprocess
+  insize=26137 outsize=4108 ok=1
+Cmd: preprocess
+  insize=4002 outsize=531 ok=1
+Cmd: preprocess
+  insize=2141 outsize=280 ok=1
+Cmd: preprocess
+  insize=1168 outsize=333 ok=1
+Cmd: preprocess
+  insize=1174 outsize=435 ok=1
+Cmd: preprocess
+  insize=737 outsize=249 ok=1
+Cmd: preprocess
+  insize=5862 outsize=854 ok=1
+Cmd: preprocess
+  insize=6090 outsize=738 ok=1
+Cmd: preprocess
+  insize=584 outsize=341 ok=1
+Cmd: preprocess
+  insize=6969 outsize=930 ok=1
+Cmd: preprocess
+  insize=1459 outsize=506 ok=1
+Cmd: preprocess
+  insize=32870 outsize=255 ok=1
+Cmd: preprocess
+  insize=5286 outsize=1721 ok=1
+Cmd: preprocess
+  insize=6937 outsize=236 ok=1
+Cmd: preprocess
+  insize=5499 outsize=418 ok=1
+Cmd: preprocess
+  insize=5320 outsize=887 ok=1
+Cmd: preprocess
+  insize=1310 outsize=384 ok=1
+Cmd: preprocess
+  insize=5895 outsize=1219 ok=1
+Cmd: preprocess
+  insize=716 outsize=286 ok=1
+Cmd: preprocess
+  insize=720 outsize=299 ok=1
+Cmd: preprocess
+  insize=4345 outsize=631 ok=1
+Cmd: preprocess
+  insize=862 outsize=275 ok=1
+Cmd: preprocess
+  insize=1461 outsize=270 ok=1
+Cmd: preprocess
+  insize=2015 outsize=946 ok=1
+Cmd: preprocess
+  insize=5161 outsize=700 ok=1
+Cmd: preprocess
+  insize=1081 outsize=470 ok=1
+Cmd: preprocess
+  insize=1139 outsize=364 ok=1
+Cmd: preprocess
+  insize=512 outsize=241 ok=1
+Cmd: preprocess
+  insize=718 outsize=290 ok=1
+Cmd: preprocess
+  insize=5652 outsize=920 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=1503 outsize=622 kw= pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1503 outsize=402 kw= pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=1503 outsize=982 kw=SOFTPARTICLES_ON pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1503 outsize=758 kw=SOFTPARTICLES_ON pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING ok=1

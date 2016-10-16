@@ -67,7 +67,7 @@ public class MoveTo : MonoBehaviour {
 
         ///transform.position = vertices [Random.Range (10, 600)];
 
-		agent.SetDestination(transformList[UnityEngine.Random.Range(10,500)].transform.position); 
+		agent.SetDestination(transformList[UnityEngine.Random.Range(10,2490)].transform.position); 
 
 		//print ("agent");
 		//print(agent.destination);

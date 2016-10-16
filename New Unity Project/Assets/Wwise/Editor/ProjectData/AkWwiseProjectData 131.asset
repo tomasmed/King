@@ -12,12 +12,93 @@ MonoBehaviour:
   m_Name: AkWwiseProjectData 131
   m_EditorClassIdentifier: 
   CurrentPluginConfig: 
+<<<<<<< HEAD
   EventWwu: []
   AuxBusWwu: []
   StateWwu: []
   SwitchWwu: []
   BankWwu: []
   ExpandedItems: []
+=======
+  EventWwu:
+  - PhysicalPath: Events\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    Guid: '{0838FC45-2078-40D2-BB2D-2C1F58A19CE9}'
+    m_lastTimePsrt1: -1863419346
+    m_lastTimePart2: -1999374895
+    List:
+    - Name: Play_Beacon
+      Path: Default Work Unit\Play_Beacon
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_Beacon
+        ObjectType: 3
+      ID: -168682298
+      Guid: 57eecd51b4abbe4ca6b6043032bba371
+      maxAttenuation: 0
+    - Name: Play_Music_Loop
+      Path: Default Work Unit\Play_Music_Loop
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_Music_Loop
+        ObjectType: 3
+      ID: 433710372
+      Guid: 9ddc8397f15855459b6cb3b9a3ca8378
+      maxAttenuation: 0
+    - Name: Stop_Music
+      Path: Default Work Unit\Stop_Music
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Stop_Music
+        ObjectType: 3
+      ID: -1457583239
+      Guid: 07db1dafcb37f14cb82869a42c3752f6
+      maxAttenuation: 0
+  AuxBusWwu:
+  - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    Guid: '{EA48A8B5-C8B6-4F88-857E-567E0D2ECE7F}'
+    m_lastTimePsrt1: -963644602
+    m_lastTimePart2: -1999374996
+    List: []
+  StateWwu:
+  - PhysicalPath: States\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    Guid: '{F43402DE-9FF0-4E8C-9BF7-4EA06032A119}'
+    m_lastTimePsrt1: -963334398
+    m_lastTimePart2: -1999374996
+    List: []
+  SwitchWwu:
+  - PhysicalPath: Switches\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    Guid: '{704F42EA-2F5D-4471-A0FD-8C9445B0118D}'
+    m_lastTimePsrt1: -963314376
+    m_lastTimePart2: -1999374996
+    List: []
+  BankWwu:
+  - PhysicalPath: SoundBanks\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    Guid: '{674EA86F-7204-42CD-8853-756B726D2233}'
+    m_lastTimePsrt1: -1861401377
+    m_lastTimePart2: -1999374895
+    List:
+    - Name: Main
+      Path: Default Work Unit\Main
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Main
+        ObjectType: 7
+      ID: -1133058374
+      Guid: d2976bb038ba074987946ebfcb6aa3a2
+  ExpandedItems:
+  - /WiseKing
+  - /WiseKing/SoundBanks
+  - /WiseKing/SoundBanks/Default Work Unit
+>>>>>>> 8e8cba3e9f6f39ccfe082ee18fa55d27b33b26d4
   m_lastPopulateTimePsrt1: 0
   m_lastPopulateTimePart2: 0
   autoPopulateEnabled: 1
