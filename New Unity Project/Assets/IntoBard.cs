@@ -1,12 +1,12 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.UI;
 
 public class IntoBard : MonoBehaviour {
 
 
 	public GameObject HomeposOb1;
 	private NavMeshAgent agent;
-
 
 	void OnTriggerEnter(Collider other){
 		agent = GetComponent<NavMeshAgent>();
@@ -19,8 +19,7 @@ public class IntoBard : MonoBehaviour {
 		if (other.tag == "HomeBase") {
 			Debug.Log ("Agent is home : )");
 			//agent.SetDestination(HomeposOb1.transform.position);
-			
-			Destroy(gameObject); ///code here to destory agent. 
+
 		}
 
 		if (other.tag == "Bard") {
