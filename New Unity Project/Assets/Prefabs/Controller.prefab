@@ -74,11 +74,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   score: 0
   money: 0
-<<<<<<< HEAD
   moneyGT: {fileID: 114000013018299992, guid: b799c5155f267294288908429538d4da, type: 2}
-=======
   moneyGT: {fileID: 0}
->>>>>>> 72edf1b01c30f90bd8f696e592dee1761db66b09
 --- !u!114 &114000010866011554
 MonoBehaviour:
   m_ObjectHideFlags: 1

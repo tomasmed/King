@@ -9,11 +9,37 @@ public class IntoBard : MonoBehaviour {
 	//Agent theAgent;
 	public GameObject HomeposOb1;
 	private NavMeshAgent agent;
-	public bool BeaconPath;
+	public GameObject Beaconthing;
 
+	public static bool BeaconPath = false;
+	public static bool Redirector = false; 
+
+	// Use this for initialization
+	void Start () {
+
+	}
+
+	// Update is called once per frame
+	void Update () {
+
+		if (Controller.S.RedirectorisPlaced == true) {
+			Redirector = true;
+			if (BeaconPath == true) {
+				print ("redirect is on");
+				agent = GetComponent<NavMeshAgent> ();
+				agent.SetDestination (Controller.S.Redirectorpos);
+			}
+		}
+
+
+		if(Controller.S.RedirectorisPlaced == false){
+			Redirector = false;
+		}
+
+	}
 
 	private void Awake(){
-		BeaconPath = this.gameObject.GetComponentInParent<bool>();
+		//BeaconPath = this.gameObject.GetComponentInParent<Agent>().BeaconPath;
 	}
 	void OnTriggerEnter(Collider other){
 		agent = GetComponent<NavMeshAgent>();
@@ -49,9 +75,6 @@ public class IntoBard : MonoBehaviour {
 
 		///second redirect that sends to goal again 
 		/// 
-
-
-
 	
 	}
 
@@ -65,13 +88,6 @@ public class IntoBard : MonoBehaviour {
 		}
 	}
 		
-	// Use this for initialization
-	void Start () {
-	
-	}
-	
-	// Update is called once per frame
-	void Update () {
-	
-	}
+
+
 }

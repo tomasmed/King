@@ -452,7 +452,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4000010721720146, guid: d24c5cf3c484e054f869b81331b28768, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -6.25
+      value: 10.24
       objectReference: {fileID: 0}
     - target: {fileID: 4000010721720146, guid: d24c5cf3c484e054f869b81331b28768, type: 2}
       propertyPath: m_LocalPosition.y
@@ -460,7 +460,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4000010721720146, guid: d24c5cf3c484e054f869b81331b28768, type: 2}
       propertyPath: m_LocalPosition.z
-      value: -2.35
+      value: -5.67
       objectReference: {fileID: 0}
     - target: {fileID: 4000010721720146, guid: d24c5cf3c484e054f869b81331b28768, type: 2}
       propertyPath: m_LocalRotation.x
@@ -569,6 +569,16 @@ Prefab:
       propertyPath: coins
       value: 6
       objectReference: {fileID: 0}
+    - target: {fileID: 114000010082127372, guid: 1f7a17ee33bfa284db4222cc530e4097,
+        type: 2}
+      propertyPath: redirectCost
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000010082127372, guid: 1f7a17ee33bfa284db4222cc530e4097,
+        type: 2}
+      propertyPath: beaconCost
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1f7a17ee33bfa284db4222cc530e4097, type: 2}
   m_IsPrefabParent: 0
@@ -632,6 +642,7 @@ GameObject:
   - 92: {fileID: 1658189170}
   - 124: {fileID: 1658189169}
   - 114: {fileID: 1658189168}
+  - 114: {fileID: 1658189173}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -712,6 +723,25 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
+--- !u!114 &1658189173
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1658189167}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7720f5602b35aa48b6831d77cbba580, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggerList: f7e1664c
+  useOtherObject: 0
+  valueGuid: d2976bb038ba074987946ebfcb6aa3a2
+  bankName: Main
+  loadAsynchronous: 0
+  decodeBank: 0
+  saveDecodedBank: 0
+  unloadTriggerList: 958ca0ea
 --- !u!1001 &1824333937
 Prefab:
   m_ObjectHideFlags: 0
