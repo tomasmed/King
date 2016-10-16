@@ -11,11 +11,11 @@ public class Click : MonoBehaviour
     //private bool placeBeacon;
     //private bool placeRedirect;
     //sound clip to place object
-    //public AudioClip setObject;
+    public AudioClip setObject;
     //sound clip when object can't be placed due to something in the way
-    //public AudioClip noSetObjectBlock;
+    public AudioClip noSetObjectBlock;
     //sound clip when object can't be placed because we're broke
-    //public AudioClip noSetObjectBroke;
+    public AudioClip noSetObjectBroke;
 
     void Start()
     {
@@ -49,17 +49,21 @@ public class Click : MonoBehaviour
                 {
                     Instantiate(Beacon, hit.point, transform.rotation);
                     coins -= beaconCost;
-                    //AudioManager.Instance.PlaySound(setObject);
-                }
+                    AudioManager.Instance.PlaySound(setObject);
+                    print("beaconsound");
+;                }
                 //if RayCast hits another object (can't place bc space)
                 else if (hit.collider.name.Equals(Beacon.GetComponent<Collider>().name))
                 {
                     //AudioManager.Instance.PlaySound(noSetObjectBlock);
                 }
             }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 9d07567f6b6364c6379eae9c1a2ce7023394add9
 		
-            //if RayCast hits another object (can't place bc space)
+            //dif RayCast hits another object (can't place bc space)
             /* else if (raycaststuff)
             {
                 AudioManager.Instance.PlaySound(noSetObjectBlock);
