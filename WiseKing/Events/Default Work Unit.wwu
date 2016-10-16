@@ -72,6 +72,28 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_Portal" ID="{11B766CF-D2CF-421F-9D21-410BE2ABE866}">
+					<ChildrenList>
+						<Action Name="Play" ID="{DFAD2844-C328-49B9-9064-B8C0D016B61B}" ShortID="127072448" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{E57BDCBF-DE7F-4D84-9EA7-84F873B10744}" Global="false">
+									<ObjectRef Name="Portal" ID="{9D082929-2B20-48E3-BEF9-F7239EFC1E6E}" WorkUnitID="{C6000DA4-7795-45DE-811F-572F08C7BEB0}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_FM_Beep" ID="{0D909E3F-1464-4D18-B5C7-2C6D37CB56FA}">
+					<ChildrenList>
+						<Action Name="Play" ID="{68BB3B53-C287-49D0-958A-8B5109A98322}" ShortID="537573428" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{DF459159-B455-44E5-9E40-865E3634381B}" Global="false">
+									<ObjectRef Name="FM_Beep" ID="{27857013-D0A1-4846-8445-AE716C2CFD50}" WorkUnitID="{C6000DA4-7795-45DE-811F-572F08C7BEB0}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

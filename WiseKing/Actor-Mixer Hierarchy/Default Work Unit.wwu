@@ -60,6 +60,21 @@
 				<Folder Name="SFX" ID="{512DEB98-7D5B-4D86-B73D-588DD42B888A}" ShortID="913590947">
 					<ChildrenList>
 						<Sound Name="Beacon" ID="{C1F5CC05-3C8C-4015-AF30-14E29073A9B8}" ShortID="284036313" Type="SoundFX">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{25186F11-B941-411D-8F63-165B3A598FF9}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="50"/>
+													<Property Name="Min" Type="Real64" Value="-50"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{035FD98D-1A05-48C3-A47C-84C520101CAE}"/>
@@ -79,6 +94,21 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="ReDirector" ID="{C8BB3EDF-66B6-433C-A306-DC529E6718BD}" ShortID="226069515" Type="SoundFX">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{FC3D87AF-EBCA-48B8-8747-1E0365F32648}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="50"/>
+													<Property Name="Min" Type="Real64" Value="-50"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{035FD98D-1A05-48C3-A47C-84C520101CAE}"/>
@@ -98,6 +128,21 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="Beacon_v2" ID="{C6976D0F-59A0-4C2A-AEF6-FD7145D49A2B}" ShortID="814838935" Type="SoundFX">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{53CB4867-D758-4CAF-8076-B60F98D26DE5}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="50"/>
+													<Property Name="Min" Type="Real64" Value="-50"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{035FD98D-1A05-48C3-A47C-84C520101CAE}"/>
@@ -114,6 +159,96 @@
 							</ChildrenList>
 							<ActiveSourceList>
 								<ActiveSource Name="Beacon_v2" ID="{E7DED132-886E-4953-BBEA-DA58BDE400D3}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Portal" ID="{9D082929-2B20-48E3-BEF9-F7239EFC1E6E}" ShortID="328986895" Type="SoundFX">
+							<PropertyList>
+								<Property Name="Lowpass" Type="int16">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{21AEB795-B150-4C82-A3E1-3E8E35DCA3ED}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="5"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{4B0A19A0-C328-4D18-8874-A36862A9B2FF}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="150"/>
+													<Property Name="Min" Type="Real64" Value="-150"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{035FD98D-1A05-48C3-A47C-84C520101CAE}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EA48A8B5-C8B6-4F88-857E-567E0D2ECE7F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Portal" ID="{6B48988C-DA77-4D93-9FB2-1053AA89BDF9}" ShortID="473352579">
+									<PropertyList>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.115513392857143"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.263671875"/>
+										<Property Name="TrimEnd" Type="Real64" Value="1.1953125"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Portal.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Portal" ID="{6B48988C-DA77-4D93-9FB2-1053AA89BDF9}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="FM_Beep" ID="{27857013-D0A1-4846-8445-AE716C2CFD50}" ShortID="867812812" Type="SoundFX">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{871E62F6-22A9-404B-88F5-65EF768F0956}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="150"/>
+													<Property Name="Min" Type="Real64" Value="-150"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{035FD98D-1A05-48C3-A47C-84C520101CAE}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EA48A8B5-C8B6-4F88-857E-567E0D2ECE7F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="FM_Beep" ID="{C380D0BE-2F3B-484E-BB7C-023E8FB100EE}" ShortID="744092478">
+									<PropertyList>
+										<Property Name="FadeOutDuration" Type="Real64" Value="8.03571428571428E-02"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.94921875"/>
+										<Property Name="TrimEnd" Type="Real64" Value="1.57700892857143"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>FM_Beep.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="FM_Beep" ID="{C380D0BE-2F3B-484E-BB7C-023E8FB100EE}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 					</ChildrenList>
