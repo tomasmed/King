@@ -10,12 +10,6 @@ public class Click : MonoBehaviour
     //public int redirectCost;
     //private bool placeBeacon;
     //private bool placeRedirect;
-    //sound clip to place object
-    public AudioClip setObject;
-    //sound clip when object can't be placed due to something in the way
-    public AudioClip noSetObjectBlock;
-    //sound clip when object can't be placed because we're broke
-    public AudioClip noSetObjectBroke;
 
     void Start()
     {
@@ -49,20 +43,20 @@ public class Click : MonoBehaviour
                 {
                     Instantiate(Beacon, hit.point, transform.rotation);
                     coins -= beaconCost;
-                    AudioManager.Instance.PlaySound(setObject);
+                    AkSoundEngine.PostEvent("Play_Beacon", Beacon);
                     print("beaconsound");
 ;                }
                 //if RayCast hits another object (can't place bc space)
                 else if (hit.collider.name.Equals(Beacon.GetComponent<Collider>().name))
                 {
-                    AudioManager.Instance.PlaySound(noSetObjectBlock);
+
                 }
             }
 				
             //if RayCast hits ground, but not enough resources
             else
             {
-                AudioManager.Instance.PlaySound(noSetObjectBroke);
+                //AudioManager.Instance.PlaySound(noSetObjectBroke);
             }
         }
     }
