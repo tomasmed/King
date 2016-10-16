@@ -1,12 +1,4 @@
 sceneSetups:
-<<<<<<< HEAD
 - path: Assets/Scenes/Main_Tomas.unity
-=======
-<<<<<<< HEAD
-- path: Assets/Scenes/Tutorial_Cutscene.unity
-=======
-- path: Assets/Scenes/MAIN.unity
->>>>>>> 5849e6a2d6a295f137314e9dd7462087b97ceb85
->>>>>>> 0a49be05bb135ae768dc7346b58fb8636aec91d9
   isLoaded: 1
   isActive: 1

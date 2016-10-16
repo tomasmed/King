@@ -34,7 +34,7 @@ public class ClickSwitch : MonoBehaviour
         {
             if (!placeBeacon && !placeRedirect)
             {
-                print("Please select beacon(1) or redirect(2)");
+                //print("Please select beacon(1) or redirect(2)");
             }
             else if (placeBeacon)
             {

@@ -23,7 +23,7 @@ public class TutorialSceneSwitch : MonoBehaviour {
         print(Time.time);
         yield return new WaitForSeconds(18);
         print(Time.time);
-        SceneManager.LoadScene(1, LoadSceneMode.Single);
+        SceneManager.LoadScene(2, LoadSceneMode.Single);
 
         //Use invoke to delay calling of LoadDelayed by half the length of fadeColorAnimationClip
         Invoke("LoadDelayed", fadeColorAnimationClip.length * .5f);

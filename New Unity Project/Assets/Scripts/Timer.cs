@@ -2,6 +2,8 @@
 using System.Collections;
 using UnityEngine.UI;
 
+using UnityEngine.SceneManagement;
+
 public class Timer : MonoBehaviour {
     public GameObject TimerGob;
 	// Use this for initialization
@@ -20,7 +22,7 @@ public class Timer : MonoBehaviour {
         }
         else
         {
-            //Move to new scene
+            SceneManager.LoadScene("lose");
         }
     }
 }
