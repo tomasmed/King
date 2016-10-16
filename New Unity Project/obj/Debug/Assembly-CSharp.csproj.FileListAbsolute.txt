@@ -19,6 +19,7 @@ C:\King\King\New Unity Project\Temp\bin\Debug\UnityEngine.UI.xml
 C:\King\King\New Unity Project\Temp\bin\Debug\UnityEngine.Networking.xml
 C:\King\King\New Unity Project\obj\Debug\Assembly-CSharp.dll
 C:\King\King\New Unity Project\obj\Debug\Assembly-CSharp.pdb
+C:\KingGit\King\New Unity Project\obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache
 C:\KingGit\King\New Unity Project\Temp\bin\Debug\Assembly-CSharp.dll
 C:\KingGit\King\New Unity Project\Temp\bin\Debug\Assembly-CSharp.pdb
 C:\KingGit\King\New Unity Project\Temp\bin\Debug\UnityEditor.dll
@@ -33,10 +34,10 @@ C:\KingGit\King\New Unity Project\Temp\bin\Debug\Unity.UNetWeaver.dll
 C:\KingGit\King\New Unity Project\Temp\bin\Debug\Unity.CecilTools.dll
 C:\KingGit\King\New Unity Project\Temp\bin\Debug\Mono.Cecil.Pdb.dll
 C:\KingGit\King\New Unity Project\Temp\bin\Debug\Mono.Cecil.Mdb.dll
+C:\KingGit\King\New Unity Project\Temp\bin\Debug\Assembly-CSharp-firstpass.pdb
 C:\KingGit\King\New Unity Project\Temp\bin\Debug\UnityEngine.xml
 C:\KingGit\King\New Unity Project\Temp\bin\Debug\UnityEditor.xml
 C:\KingGit\King\New Unity Project\Temp\bin\Debug\UnityEngine.UI.xml
 C:\KingGit\King\New Unity Project\Temp\bin\Debug\UnityEngine.Networking.xml
-C:\KingGit\King\New Unity Project\obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache
 C:\KingGit\King\New Unity Project\obj\Debug\Assembly-CSharp.dll
 C:\KingGit\King\New Unity Project\obj\Debug\Assembly-CSharp.pdb
