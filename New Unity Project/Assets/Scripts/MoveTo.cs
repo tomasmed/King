@@ -12,7 +12,7 @@ public class MoveTo : MonoBehaviour {
 
 	public int xSize, ySize;
 
-    public GameObject transformListOb;
+    private GameObject transformListOb;
 	public List<GameObject> transformList = new List<GameObject>();
 
 
@@ -23,15 +23,16 @@ public class MoveTo : MonoBehaviour {
 
 		print (transformListOb.GetComponent<Scripty> ().tList.Count);
 
-		//gridPoints = new Transform[(xSize + 1) * (ySize + 1)];
 		for (int y = 0; y < transformListOb.GetComponent<Scripty> ().tList.Count; y++) {
 			transformList.Add (transformListOb.GetComponent<Scripty> ().tList[y]);
 		}
+
+		print (transformList.Count);
 	}
 
 	// Use this for initialization
 	void Start () {
-
+	transformListOb = GameObject.Find ("Scripty");
 	///initializes abiment movement map 
 	Generate();
 	agent = GetComponent<NavMeshAgent>();
@@ -61,6 +62,7 @@ public class MoveTo : MonoBehaviour {
 
 		print ("gotonext");
 		//GameObject tmp = new GameObject ("tempNode");
+
 
         ///transform.position = vertices [Random.Range (10, 600)];
 

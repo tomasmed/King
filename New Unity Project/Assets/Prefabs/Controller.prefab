@@ -56,6 +56,9 @@ MonoBehaviour:
   Floor: {fileID: 1000010795967744, guid: f0dd9b83aba50c24fac3717022df3385, type: 2}
   coins: 15
   beaconCost: 2
+  setObject: {fileID: 8300000, guid: 067edb71395c3f340a515d7d69dd6589, type: 3}
+  noSetObjectBlock: {fileID: 0}
+  noSetObjectBroke: {fileID: 0}
 --- !u!114 &114000010866011554
 MonoBehaviour:
   m_ObjectHideFlags: 1

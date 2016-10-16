@@ -143,6 +143,7 @@ GameObject:
   - 54: {fileID: 54000013643496140}
   - 195: {fileID: 195000013315187500}
   - 114: {fileID: 114000012721671724}
+  - 114: {fileID: 114000012667909260}
   m_Layer: 0
   m_Name: Modeled_Agent
   m_TagString: Untagged
@@ -774,6 +775,18 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+--- !u!114 &114000012667909260
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000010425313676}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1ed879cb71f31c45a54fcb2b4209f9a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  HomeposOb1: {fileID: 1000010630555508, guid: aede54e5d1ee0434aa928bd58f5f4b1d, type: 2}
 --- !u!114 &114000012721671724
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -786,9 +799,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   vertices: []
-  xSize: 0
-  ySize: 0
-  transformListOb: {fileID: 0}
+  xSize: 25
+  ySize: 25
   transformList: []
 --- !u!136 &136000012938780284
 CapsuleCollider:

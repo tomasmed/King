@@ -5,6 +5,11 @@ TagManager:
   serializedVersion: 2
   tags:
   - Bard
+  - HomeBase
+  - New Tag
+  - Floor
+  - Agent
+  - Beacon
   - New Tag
   layers:
   - Default
