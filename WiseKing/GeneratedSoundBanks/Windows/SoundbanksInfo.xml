@@ -32,11 +32,11 @@
 				</File>
 				<File Id="546985149" Language="SFX">
 					<ShortName>80sLoop_Loopable.wav</ShortName>
-					<Path>SFX\80sLoop_Loopable_002BAF3A.wem</Path>
+					<Path>SFX\80sLoop_Loopable_88B7BC2A.wem</Path>
 				</File>
-				<File Id="930085419" Language="SFX">
-					<ShortName>Beacon.wav</ShortName>
-					<Path>SFX\Beacon_9E69E797.wem</Path>
+				<File Id="1003858905" Language="SFX">
+					<ShortName>Beacon_v2.wav</ShortName>
+					<Path>SFX\Beacon_v2_9E69E797.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>
