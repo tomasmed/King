@@ -1,8 +1,4 @@
 sceneSetups:
-<<<<<<< HEAD
-- path: Assets/Scenes/TomasV2.unity
-=======
-- path: Assets/Neilsplayhouse.unity
->>>>>>> 354c34ae16491373131c86d8bb3a9cd14560358a
+- path: Assets/sceneHanna.unity
   isLoaded: 1
   isActive: 1
