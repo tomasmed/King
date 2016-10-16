@@ -7,6 +7,7 @@ public class ClickSwitch : MonoBehaviour
     public GameObject Beacon;
     public GameObject Redirect;
     public GameObject Floor;
+	//public GameObject Redir;
     //public int coins;
     public int beaconCost;
     public int redirectCost;
@@ -74,8 +75,8 @@ public class ClickSwitch : MonoBehaviour
                 //sets Vector3 transform to hit.point, offsets Y value by 'hitOffset' public varable
                 Vector3 hitTransform = hit.point;
                 hitTransform.y -= hitOffsetBeacon;
-                print(hit.point.y); //2.5
-                print(hitTransform.y); //-2.5
+                //print(hit.point.y); //2.5
+               // print(hitTransform.y); //-2.5
 
                 //Hanna - changed hit.point to hitTransform
                 Instantiate(Beacon, hitTransform, transform.rotation);
@@ -112,12 +113,12 @@ public class ClickSwitch : MonoBehaviour
                 //offsets spawn location by offset (positive)
                 Vector3 hitTransform = hit.point;
                 hitTransform.y += hitOffsetRedirector;
-                print(hit.point.y); //2.5
-                print(hitTransform.y); //-2.5
+               // print(hit.point.y); //2.5
+               // print(hitTransform.y); //-2.5
 
                 if (Controller.S.RedirectorisPlaced == true) {
-					print ("we have a redirector");
-					GameObject tmp = GameObject.Find ("Pillar(Clone)");
+					//print ("we have a redirector");
+					GameObject tmp = GameObject.Find ("Obelisk(Clone)");
 					Destroy (tmp);
 				}
                 Instantiate(Redirect, hitTransform, transform.rotation);
@@ -127,7 +128,7 @@ public class ClickSwitch : MonoBehaviour
                 //coins -= redirectCost;
 				Controller.S.money -= redirectCost; //redirectcost
                 moneyGT.text = "Credits :" + Controller.S.money.ToString();
-				print("placing redirector");
+				//print("placing redirector");
                 AkSoundEngine.PostEvent("Play_ReDirector", Redirect);
                 Controller.S.RedirectorisPlaced = true; 
 
