@@ -191,9 +191,10 @@ GameObject:
   - 195: {fileID: 195000010365645516}
   - 114: {fileID: 114000011914077356}
   - 114: {fileID: 114000011971935526}
+  - 135: {fileID: 135000013225550590}
   m_Layer: 0
   m_Name: Bard
-  m_TagString: Untagged
+  m_TagString: Bard
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -789,8 +790,6 @@ MonoBehaviour:
   vertices: []
   xSize: 25
   ySize: 25
-  transformListOb: {fileID: 1000012327325514, guid: 4061db95f5216d442add172d4877ce8e,
-    type: 2}
   transformList: []
 --- !u!114 &114000011971935526
 MonoBehaviour:
@@ -803,6 +802,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 71180e2119f9d5344b059eedf6b1904a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!135 &135000013225550590
+SphereCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000012274969562}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 2
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!136 &136000011303454716
 CapsuleCollider:
   m_ObjectHideFlags: 1

@@ -7,7 +7,6 @@ public class Bard : MonoBehaviour {
 
 	void OnTriggerEnter(Collider other){
 		Debug.Log ("Agent entered");
-
 		//Send trigger to agent 
 	}
 

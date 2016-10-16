@@ -7,6 +7,10 @@ TagManager:
   - Bard
   - HomeBase
   - New Tag
+  - Floor
+  - Agent
+  - Beacon
+  - New Tag
   layers:
   - Default
   - TransparentFX

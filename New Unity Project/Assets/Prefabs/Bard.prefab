@@ -94,7 +94,6 @@ MonoBehaviour:
   vertices: []
   xSize: 25
   ySize: 25
-  transformListOb: {fileID: 0}
   transformList: []
 --- !u!136 &136000010629644530
 CapsuleCollider:
