@@ -321,6 +321,11 @@ Prefab:
       propertyPath: m_RootOrder
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 114000010035675036, guid: 1f7a17ee33bfa284db4222cc530e4097,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1f7a17ee33bfa284db4222cc530e4097, type: 2}
   m_IsPrefabParent: 0
@@ -368,6 +373,31 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 4
+--- !u!1 &1455444474 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1000012805098372, guid: 1f7a17ee33bfa284db4222cc530e4097,
+    type: 2}
+  m_PrefabInternal: {fileID: 1066245517}
+--- !u!114 &1455444478
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1455444474}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4c7c58411451a3459b350ec531b773b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Beacon: {fileID: 1000011189829822, guid: aeee940e83d71ef40bf664c11cdbab92, type: 2}
+  Redirect: {fileID: 1000013076034300, guid: e936607618ec62d4ea43d511cf29ddad, type: 2}
+  Floor: {fileID: 1000010795967744, guid: f0dd9b83aba50c24fac3717022df3385, type: 2}
+  coins: 15
+  beaconCost: 0
+  redirectCost: 0
+  setObject: {fileID: 0}
+  noSetObjectBlock: {fileID: 0}
+  noSetObjectBroke: {fileID: 0}
 --- !u!1001 &1527693319
 Prefab:
   m_ObjectHideFlags: 0
