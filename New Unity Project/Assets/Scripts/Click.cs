@@ -55,20 +55,14 @@ public class Click : MonoBehaviour
                 //if RayCast hits another object (can't place bc space)
                 else if (hit.collider.name.Equals(Beacon.GetComponent<Collider>().name))
                 {
-                    //AudioManager.Instance.PlaySound(noSetObjectBlock);
+                    AudioManager.Instance.PlaySound(noSetObjectBlock);
                 }
             }
 		
-            //dif RayCast hits another object (can't place bc space)
-            /* else if (raycaststuff)
-            {
-                AudioManager.Instance.PlaySound(noSetObjectBlock);
-            }
-            */
             //if RayCast hits ground, but not enough resources
             else
             {
-                //AudioManager.Instance.PlaySound(noSetObjectBroke);
+                AudioManager.Instance.PlaySound(noSetObjectBroke);
             }
         }
     }
