@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ValidationCache Version="1" SchemaVersion="72">
-	<ValidationCacheItem File="C:\Users\Dan Braunstein\Documents\GitHub\King\WiseKing\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="508145434" DateHigh="30549842"/>
+	<ValidationCacheItem File="C:\Users\Dan Braunstein\Documents\GitHub\King\WiseKing\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="531350875" DateHigh="30549877"/>
 	<ValidationCacheItem File="C:\Users\Dan Braunstein\Documents\GitHub\King\WiseKing\Attenuations\Default Work Unit.wwu" DateLow="508190457" DateHigh="30549842"/>
 	<ValidationCacheItem File="C:\Users\Dan Braunstein\Documents\GitHub\King\WiseKing\Audio Devices\Default Work Unit.wwu" DateLow="508225486" DateHigh="30549842"/>
 	<ValidationCacheItem File="C:\Users\Dan Braunstein\Documents\GitHub\King\WiseKing\Control Surface Sessions\Default Work Unit.wwu" DateLow="508290532" DateHigh="30549842"/>
@@ -9,7 +9,7 @@
 	<ValidationCacheItem File="C:\Users\Dan Braunstein\Documents\GitHub\King\WiseKing\Dynamic Dialogue\Default Work Unit.wwu" DateLow="508465652" DateHigh="30549842"/>
 	<ValidationCacheItem File="C:\Users\Dan Braunstein\Documents\GitHub\King\WiseKing\Effects\Default Work Unit.wwu" DateLow="508500673" DateHigh="30549842"/>
 	<ValidationCacheItem File="C:\Users\Dan Braunstein\Documents\GitHub\King\WiseKing\Effects\Factory Effects.wwu" DateLow="508585733" DateHigh="30549842"/>
-	<ValidationCacheItem File="C:\Users\Dan Braunstein\Documents\GitHub\King\WiseKing\Events\Default Work Unit.wwu" DateLow="508645784" DateHigh="30549842"/>
+	<ValidationCacheItem File="C:\Users\Dan Braunstein\Documents\GitHub\King\WiseKing\Events\Default Work Unit.wwu" DateLow="2045829107" DateHigh="30549877"/>
 	<ValidationCacheItem File="C:\Users\Dan Braunstein\Documents\GitHub\King\WiseKing\Game Parameters\Default Work Unit.wwu" DateLow="508710835" DateHigh="30549842"/>
 	<ValidationCacheItem File="C:\Users\Dan Braunstein\Documents\GitHub\King\WiseKing\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="509116122" DateHigh="30549842"/>
 	<ValidationCacheItem File="C:\Users\Dan Braunstein\Documents\GitHub\King\WiseKing\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="509161146" DateHigh="30549842"/>
@@ -18,11 +18,11 @@
 	<ValidationCacheItem File="C:\Users\Dan Braunstein\Documents\GitHub\King\WiseKing\Presets\Default Work Unit.wwu" DateLow="509446357" DateHigh="30549842"/>
 	<ValidationCacheItem File="C:\Users\Dan Braunstein\Documents\GitHub\King\WiseKing\Queries\Default Work Unit.wwu" DateLow="509491384" DateHigh="30549842"/>
 	<ValidationCacheItem File="C:\Users\Dan Braunstein\Documents\GitHub\King\WiseKing\Queries\Factory Queries.wwu" DateLow="509561425" DateHigh="30549842"/>
-	<ValidationCacheItem File="C:\Users\Dan Braunstein\Documents\GitHub\King\WiseKing\SoundBanks\Default Work Unit.wwu" DateLow="509606466" DateHigh="30549842"/>
-	<ValidationCacheItem File="C:\Users\Dan Braunstein\Documents\GitHub\King\WiseKing\Soundcaster Sessions\Default Work Unit.wwu" DateLow="509676541" DateHigh="30549842"/>
+	<ValidationCacheItem File="C:\Users\Dan Braunstein\Documents\GitHub\King\WiseKing\SoundBanks\Default Work Unit.wwu" DateLow="3871114994" DateHigh="30549880"/>
+	<ValidationCacheItem File="C:\Users\Dan Braunstein\Documents\GitHub\King\WiseKing\Soundcaster Sessions\Default Work Unit.wwu" DateLow="1911053763" DateHigh="30549877"/>
 	<ValidationCacheItem File="C:\Users\Dan Braunstein\Documents\GitHub\King\WiseKing\States\Default Work Unit.wwu" DateLow="509751577" DateHigh="30549842"/>
 	<ValidationCacheItem File="C:\Users\Dan Braunstein\Documents\GitHub\King\WiseKing\Switches\Default Work Unit.wwu" DateLow="509801609" DateHigh="30549842"/>
 	<ValidationCacheItem File="C:\Users\Dan Braunstein\Documents\GitHub\King\WiseKing\Triggers\Default Work Unit.wwu" DateLow="509846636" DateHigh="30549842"/>
-	<ValidationCacheItem File="C:\Users\Dan Braunstein\Documents\GitHub\King\WiseKing\WiseKing.Dan Braunstein.wsettings" DateLow="2303389534" DateHigh="30549842"/>
+	<ValidationCacheItem File="C:\Users\Dan Braunstein\Documents\GitHub\King\WiseKing\WiseKing.Dan Braunstein.wsettings" DateLow="3901453666" DateHigh="30549880"/>
 	<ValidationCacheItem File="C:\Users\Dan Braunstein\Documents\GitHub\King\WiseKing\WiseKing.wproj" DateLow="509986736" DateHigh="30549842"/>
 </ValidationCache>
