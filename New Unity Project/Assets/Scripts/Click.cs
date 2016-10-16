@@ -33,7 +33,7 @@ public class Click : MonoBehaviour
             placeBeacon = true;
             placeRedirect = false;
         }
-        */
+		*/
         if (Input.GetMouseButtonDown(0))
         {
             if (coins >= beaconCost)

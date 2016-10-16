@@ -6,14 +6,46 @@ public class IntoBard : MonoBehaviour {
 	/// <summary>
 	/// only for agents 
 	/// </summary>
-
+	//Agent theAgent;
 	public GameObject HomeposOb1;
 	private NavMeshAgent agent;
+	public GameObject Beaconthing;
 
+	public static bool BeaconPath = false;
+	public static bool Redirector = false; 
+
+	// Use this for initialization
+	void Start () {
+
+	}
+
+	// Update is called once per frame
+	void Update () {
+
+		if (Controller.S.RedirectorisPlaced == true) {
+			Redirector = true;
+			if (BeaconPath == true) {
+				print ("redirect is on");
+				agent = GetComponent<NavMeshAgent> ();
+				agent.SetDestination (Controller.S.Redirectorpos);
+			}
+		}
+
+
+		if(Controller.S.RedirectorisPlaced == false){
+			Redirector = false;
+		}
+
+	}
+
+	private void Awake(){
+		//BeaconPath = this.gameObject.GetComponentInParent<Agent>().BeaconPath;
+	}
 	void OnTriggerEnter(Collider other){
 		agent = GetComponent<NavMeshAgent>();
 		if (other.tag == "Beacon") {
 			agent.SetDestination(HomeposOb1.transform.position);
+			BeaconPath = true;
 			print ("Agent is inside beacon");
 			print ("redirecting to home");
 		}
@@ -29,16 +61,21 @@ public class IntoBard : MonoBehaviour {
 			Destroy(gameObject); //gameobject is Agent 
 		}
 
-		/*if (other.tag == "Bard") {
-			Debug.Log ("Agent is following");
-			//agent.SetDestination(HomeposOb1.transform.position);  //following code 
-			print(other.transform.position);
-			agent.Stop (); //stopping  
-		}*/
+		if (other.tag == "redirect") {
+			if(BeaconPath == true){
+			//once agents hit the redirect they should move back to the castle.
+			agent.SetDestination(HomeposOb1.transform.position);  //following code 
+			print ("agent is redirecting to pillar"); //stopping 
+			}
+		} 
 
+		///if redirectbool is active 
+		/// 	take agentNav and set to redirect node pos 
+		// t
 
-
-
+		///second redirect that sends to goal again 
+		/// 
+	
 	}
 
 	void OnTriggerStay(Collider other){
@@ -51,13 +88,6 @@ public class IntoBard : MonoBehaviour {
 		}
 	}
 		
-	// Use this for initialization
-	void Start () {
-	
-	}
-	
-	// Update is called once per frame
-	void Update () {
-	
-	}
+
+
 }

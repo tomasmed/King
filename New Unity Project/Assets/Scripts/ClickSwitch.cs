@@ -89,15 +89,31 @@ public class ClickSwitch : MonoBehaviour
     {
         if (Controller.S.money >= redirectCost)
         {
-            Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+			
+			Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+
             RaycastHit hit;
             //if RayCast Hits the ground
             if (Physics.Raycast(ray, out hit) && (hit.collider.name.Equals(Floor.GetComponent<Collider>().name)))
             {
+				
+
+				if (Controller.S.RedirectorisPlaced == true) {
+					GameObject tmp = GameObject.Find ("Redirect");
+					Destroy (tmp);
+				}
                 Instantiate(Redirect, hit.point, transform.rotation);
+
+
+			
+				Controller.S.Redirectorpos = new Vector3 (hit.point.x,hit.point.y,hit.point.z);
+
                 //coins -= redirectCost;
-                Controller.S.money -= beaconCost;
+				Controller.S.money -= redirectCost; //redirectcost
                 moneyGT.text = "Credits :" + Controller.S.money.ToString();
+				print("placing redirector");
+				Controller.S.RedirectorisPlaced = true; 
+
             }
             //if RayCast hits another object (can't place bc space)
             else if ((hit.collider.name.Equals(Beacon.GetComponent<Collider>().name)) || hit.collider.name.Equals(Redirect.GetComponent<Collider>().name))
