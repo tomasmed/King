@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Neilsplayhouse.unity
+- path: Assets/Scenes/Dan_Playground.unity
   isLoaded: 1
   isActive: 1

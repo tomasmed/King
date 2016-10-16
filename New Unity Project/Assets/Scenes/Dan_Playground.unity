@@ -359,6 +359,21 @@ Prefab:
       propertyPath: beaconCost
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 114000010516434846, guid: 1f7a17ee33bfa284db4222cc530e4097,
+        type: 2}
+      propertyPath: money
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000010082127372, guid: 1f7a17ee33bfa284db4222cc530e4097,
+        type: 2}
+      propertyPath: redirectCost
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000010082127372, guid: 1f7a17ee33bfa284db4222cc530e4097,
+        type: 2}
+      propertyPath: beaconCost
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1f7a17ee33bfa284db4222cc530e4097, type: 2}
   m_IsPrefabParent: 0
@@ -430,6 +445,9 @@ GameObject:
   - 114: {fileID: 1984493486}
   - 114: {fileID: 1984493485}
   - 114: {fileID: 1984493484}
+  - 114: {fileID: 1984493490}
+  - 114: {fileID: 1984493489}
+  - 114: {fileID: 1984493488}
   m_Layer: 0
   m_Name: WwiseGlobal
   m_TagString: Untagged
@@ -499,6 +517,71 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 6
+--- !u!114 &1984493488
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1984493483}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13c82b1f8821a394fbf15ead1b6b3f05, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggerList: 958ca0ea
+  useOtherObject: 0
+  valueGuid: 07db1dafcb37f14cb82869a42c3752f6
+  eventID: -1457583239
+  soundEmitterObject: {fileID: 0}
+  enableActionOnEvent: 0
+  actionOnEventType: 0
+  curveInterpolation: 4
+  transitionDuration: 0
+  m_callbackData: {fileID: 0}
+  playingId: 0
+  multiPositionTypeLabel: 0
+  multiPositionArray: []
+--- !u!114 &1984493489
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1984493483}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13c82b1f8821a394fbf15ead1b6b3f05, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggerList: f7e1664c
+  useOtherObject: 0
+  valueGuid: 9ddc8397f15855459b6cb3b9a3ca8378
+  eventID: 433710372
+  soundEmitterObject: {fileID: 0}
+  enableActionOnEvent: 0
+  actionOnEventType: 0
+  curveInterpolation: 4
+  transitionDuration: 0
+  m_callbackData: {fileID: 0}
+  playingId: 0
+  multiPositionTypeLabel: 0
+  multiPositionArray: []
+--- !u!114 &1984493490
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1984493483}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4c949bf3492b734d88b2279d9ece9ef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_positionOffsetData:
+    positionOffset: {x: 0, y: 0, z: 0}
+    KeepMe: 0
+  isEnvironmentAware: 0
+  listenerMask: 1
+  isStaticObject: 0
 --- !u!1001 &2075665795
 Prefab:
   m_ObjectHideFlags: 0
