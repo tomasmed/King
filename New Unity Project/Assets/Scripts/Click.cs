@@ -1,10 +1,12 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.UI;
 
 public class Click : MonoBehaviour
 {
     public GameObject Beacon;
     public GameObject Floor;
+	public Text moneyGT;
     public int coins;
     public int beaconCost;
     //public int redirectCost;
@@ -43,6 +45,13 @@ public class Click : MonoBehaviour
                 {
                     Instantiate(Beacon, hit.point, transform.rotation);
                     coins -= beaconCost;
+
+					Controller.S.money -= beaconCost;
+
+					//Text moneyGT = moneyGob.GetComponent <Text>(); 
+
+					moneyGT.text = "Credits :" + Controller.S.money.ToString ();
+	
                     AkSoundEngine.PostEvent("Play_Beacon", Beacon);
                     print("beaconsound");
 ;                }

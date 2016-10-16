@@ -7,14 +7,20 @@ public class HomeBase : MonoBehaviour {
 
 
 	public Text scoreGT;
-	private int score;
+
+	public Text moneyGT;
+
 	// Use this for initialization
 	void Start () {
-		score = 0;
+		
 		GameObject scoreGob = GameObject.Find ("HighScore"); 
 		scoreGT = scoreGob.GetComponent <Text>(); 
-		scoreGT.text = "HumanCount: 0";
+		scoreGT.text = "HumanCount: 0"; 
 
+
+		//GameObject moneyGob = GameObject.Find ("MoneyCount"); 
+		//moneyGT = moneyGob.GetComponent <Text>(); 
+		moneyGT.text = "Credits: 15"; 
 	}
 
 
@@ -27,16 +33,5 @@ public class HomeBase : MonoBehaviour {
 	}
 
 	// updates UI Score when the agents enter in gate 
-	void OnTriggerEnter(Collider other){
-		if (other.tag == "Agent") {
-			
-			print ("agent is home! updating score"); 
-			score += 1;
-			scoreGT.text = "HumanCount: " + score.ToString();
-			Destroy(other.gameObject); ///code here to destory agent. 
-		}
-
-
-	}
 
 }
