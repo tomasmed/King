@@ -3,75 +3,121 @@
 	<AudioObjects>
 		<WorkUnit Name="Default Work Unit" ID="{C6000DA4-7795-45DE-811F-572F08C7BEB0}" PersistMode="Standalone">
 			<ChildrenList>
-				<Sound Name="Beacon" ID="{C1F5CC05-3C8C-4015-AF30-14E29073A9B8}" ShortID="284036313" Type="SoundFX">
-					<ReferenceList>
-						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{035FD98D-1A05-48C3-A47C-84C520101CAE}"/>
-						</Reference>
-						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EA48A8B5-C8B6-4F88-857E-567E0D2ECE7F}"/>
-						</Reference>
-					</ReferenceList>
+				<Folder Name="Music" ID="{38D67252-2CB3-4E8A-A2BD-82765B1F0A2B}" ShortID="537789514">
 					<ChildrenList>
-						<AudioFileSource Name="Beacon" ID="{7101103C-814F-4E9D-81BB-0A9A036E89F9}" ShortID="930085419">
-							<Language>SFX</Language>
-							<AudioFile>Beacon.wav</AudioFile>
-						</AudioFileSource>
-					</ChildrenList>
-					<ActiveSourceList>
-						<ActiveSource Name="Beacon" ID="{7101103C-814F-4E9D-81BB-0A9A036E89F9}" Platform="Linked"/>
-					</ActiveSourceList>
-				</Sound>
-				<Sound Name="80sLoop_Start" ID="{8A479EE4-7970-4CC7-A18A-E38AB45033A4}" ShortID="125487089" Type="SoundFX">
-					<ReferenceList>
-						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{035FD98D-1A05-48C3-A47C-84C520101CAE}"/>
-						</Reference>
-						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EA48A8B5-C8B6-4F88-857E-567E0D2ECE7F}"/>
-						</Reference>
-					</ReferenceList>
-					<ChildrenList>
-						<AudioFileSource Name="80sLoop_Loopable" ID="{47B2EC59-626C-4F45-8239-E71BACC31650}" ShortID="546985149">
+						<Sound Name="80sLoop_Start" ID="{8A479EE4-7970-4CC7-A18A-E38AB45033A4}" ShortID="125487089" Type="SoundFX">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{035FD98D-1A05-48C3-A47C-84C520101CAE}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EA48A8B5-C8B6-4F88-857E-567E0D2ECE7F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="80sLoop_Loopable" ID="{47B2EC59-626C-4F45-8239-E71BACC31650}" ShortID="546985149">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="1.21978007572076"/>
+										<Property Name="LoopBegin" Type="Real64" Value="17.0439540310172"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="16.1208772169582"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>80sLoop_Loopable.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="80sLoop_Loopable" ID="{47B2EC59-626C-4F45-8239-E71BACC31650}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="80sLoop_Loopable" ID="{5912FAAC-12CE-4444-991F-0EFBD1032D08}" ShortID="658729081" Type="SoundFX">
 							<PropertyList>
-								<Property Name="FadeInDuration" Type="Real64" Value="1.21978007572076"/>
-								<Property Name="LoopBegin" Type="Real64" Value="17.0439540310172"/>
-								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-								<Property Name="TrimBegin" Type="Real64" Value="16.1208772169582"/>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 							</PropertyList>
-							<Language>SFX</Language>
-							<AudioFile>80sLoop_Loopable.wav</AudioFile>
-						</AudioFileSource>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{035FD98D-1A05-48C3-A47C-84C520101CAE}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EA48A8B5-C8B6-4F88-857E-567E0D2ECE7F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="80sLoop_Loopable" ID="{0C68E614-9C88-4FBC-8F86-208AE2270D96}" ShortID="314693019">
+									<PropertyList>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>80sLoop_Loopable.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="80sLoop_Loopable" ID="{0C68E614-9C88-4FBC-8F86-208AE2270D96}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
 					</ChildrenList>
-					<ActiveSourceList>
-						<ActiveSource Name="80sLoop_Loopable" ID="{47B2EC59-626C-4F45-8239-E71BACC31650}" Platform="Linked"/>
-					</ActiveSourceList>
-				</Sound>
-				<Sound Name="80sLoop_Loopable" ID="{5912FAAC-12CE-4444-991F-0EFBD1032D08}" ShortID="658729081" Type="SoundFX">
-					<PropertyList>
-						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-					</PropertyList>
-					<ReferenceList>
-						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{035FD98D-1A05-48C3-A47C-84C520101CAE}"/>
-						</Reference>
-						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EA48A8B5-C8B6-4F88-857E-567E0D2ECE7F}"/>
-						</Reference>
-					</ReferenceList>
+				</Folder>
+				<Folder Name="SFX" ID="{512DEB98-7D5B-4D86-B73D-588DD42B888A}" ShortID="913590947">
 					<ChildrenList>
-						<AudioFileSource Name="80sLoop_Loopable" ID="{0C68E614-9C88-4FBC-8F86-208AE2270D96}" ShortID="314693019">
-							<PropertyList>
-								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-							</PropertyList>
-							<Language>SFX</Language>
-							<AudioFile>80sLoop_Loopable.wav</AudioFile>
-						</AudioFileSource>
+						<Sound Name="Beacon" ID="{C1F5CC05-3C8C-4015-AF30-14E29073A9B8}" ShortID="284036313" Type="SoundFX">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{035FD98D-1A05-48C3-A47C-84C520101CAE}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EA48A8B5-C8B6-4F88-857E-567E0D2ECE7F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Beacon" ID="{7101103C-814F-4E9D-81BB-0A9A036E89F9}" ShortID="930085419">
+									<Language>SFX</Language>
+									<AudioFile>Beacon.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Beacon" ID="{7101103C-814F-4E9D-81BB-0A9A036E89F9}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="ReDirector" ID="{C8BB3EDF-66B6-433C-A306-DC529E6718BD}" ShortID="226069515" Type="SoundFX">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{035FD98D-1A05-48C3-A47C-84C520101CAE}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EA48A8B5-C8B6-4F88-857E-567E0D2ECE7F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="ReDirector" ID="{A74BADA9-F752-40E3-A2DF-BE12108688D3}" ShortID="456771147">
+									<Language>SFX</Language>
+									<AudioFile>ReDirector.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="ReDirector" ID="{A74BADA9-F752-40E3-A2DF-BE12108688D3}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Beacon_v2" ID="{C6976D0F-59A0-4C2A-AEF6-FD7145D49A2B}" ShortID="814838935" Type="SoundFX">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{035FD98D-1A05-48C3-A47C-84C520101CAE}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EA48A8B5-C8B6-4F88-857E-567E0D2ECE7F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Beacon_v2" ID="{E7DED132-886E-4953-BBEA-DA58BDE400D3}" ShortID="1003858905">
+									<Language>SFX</Language>
+									<AudioFile>Beacon_v2.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Beacon_v2" ID="{E7DED132-886E-4953-BBEA-DA58BDE400D3}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
 					</ChildrenList>
-					<ActiveSourceList>
-						<ActiveSource Name="80sLoop_Loopable" ID="{0C68E614-9C88-4FBC-8F86-208AE2270D96}" Platform="Linked"/>
-					</ActiveSourceList>
-				</Sound>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

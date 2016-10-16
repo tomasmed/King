@@ -16,8 +16,18 @@ MonoBehaviour:
   - PhysicalPath: Events\Default Work Unit.wwu
     ParentPhysicalPath: 
     Guid: '{0838FC45-2078-40D2-BB2D-2C1F58A19CE9}'
+<<<<<<< HEAD
     m_lastTimePsrt1: -1614589928
     m_lastTimePart2: -1999374895
+=======
+<<<<<<< HEAD
+    m_lastTimePsrt1: 1213061537
+    m_lastTimePart2: -1999374868
+=======
+    m_lastTimePsrt1: -1863419346
+    m_lastTimePart2: -1999374895
+>>>>>>> 12258352216b88ada4025caf92d049afeed57966
+>>>>>>> bda3e77835cf36f86a51d3fa202a4f0c3f32258f
     List:
     - Name: Play_Beacon
       Path: Default Work Unit\Play_Beacon
@@ -53,29 +63,69 @@ MonoBehaviour:
   - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
     ParentPhysicalPath: 
     Guid: '{EA48A8B5-C8B6-4F88-857E-567E0D2ECE7F}'
+<<<<<<< HEAD
     m_lastTimePsrt1: 133091883
     m_lastTimePart2: -1999374993
+=======
+<<<<<<< HEAD
+    m_lastTimePsrt1: 1215873977
+    m_lastTimePart2: -1999374868
+=======
+    m_lastTimePsrt1: -963644602
+    m_lastTimePart2: -1999374996
+>>>>>>> 12258352216b88ada4025caf92d049afeed57966
+>>>>>>> bda3e77835cf36f86a51d3fa202a4f0c3f32258f
     List: []
   StateWwu:
   - PhysicalPath: States\Default Work Unit.wwu
     ParentPhysicalPath: 
     Guid: '{F43402DE-9FF0-4E8C-9BF7-4EA06032A119}'
+<<<<<<< HEAD
     m_lastTimePsrt1: 133567570
     m_lastTimePart2: -1999374993
+=======
+<<<<<<< HEAD
+    m_lastTimePsrt1: 1217123957
+    m_lastTimePart2: -1999374868
+=======
+    m_lastTimePsrt1: -963334398
+    m_lastTimePart2: -1999374996
+>>>>>>> 12258352216b88ada4025caf92d049afeed57966
+>>>>>>> bda3e77835cf36f86a51d3fa202a4f0c3f32258f
     List: []
   SwitchWwu:
   - PhysicalPath: Switches\Default Work Unit.wwu
     ParentPhysicalPath: 
     Guid: '{704F42EA-2F5D-4471-A0FD-8C9445B0118D}'
+<<<<<<< HEAD
     m_lastTimePsrt1: 133607594
     m_lastTimePart2: -1999374993
+=======
+<<<<<<< HEAD
+    m_lastTimePsrt1: 1217280234
+    m_lastTimePart2: -1999374868
+=======
+    m_lastTimePsrt1: -963314376
+    m_lastTimePart2: -1999374996
+>>>>>>> 12258352216b88ada4025caf92d049afeed57966
+>>>>>>> bda3e77835cf36f86a51d3fa202a4f0c3f32258f
     List: []
   BankWwu:
   - PhysicalPath: SoundBanks\Default Work Unit.wwu
     ParentPhysicalPath: 
     Guid: '{674EA86F-7204-42CD-8853-756B726D2233}'
+<<<<<<< HEAD
     m_lastTimePsrt1: -1612871665
     m_lastTimePart2: -1999374895
+=======
+<<<<<<< HEAD
+    m_lastTimePsrt1: 1217123957
+    m_lastTimePart2: -1999374868
+=======
+    m_lastTimePsrt1: -1861401377
+    m_lastTimePart2: -1999374895
+>>>>>>> 12258352216b88ada4025caf92d049afeed57966
+>>>>>>> bda3e77835cf36f86a51d3fa202a4f0c3f32258f
     List:
     - Name: Main
       Path: Default Work Unit\Main
