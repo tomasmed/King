@@ -16,6 +16,6 @@ C:\KingGit\King\New Unity Project\Temp\bin\Debug\UnityEngine.xml
 C:\KingGit\King\New Unity Project\Temp\bin\Debug\UnityEditor.xml
 C:\KingGit\King\New Unity Project\Temp\bin\Debug\UnityEngine.UI.xml
 C:\KingGit\King\New Unity Project\Temp\bin\Debug\UnityEngine.Networking.xml
+C:\KingGit\King\New Unity Project\obj\Debug\Assembly-CSharp-firstpass.csprojResolveAssemblyReference.cache
 C:\KingGit\King\New Unity Project\obj\Debug\Assembly-CSharp-firstpass.dll
 C:\KingGit\King\New Unity Project\obj\Debug\Assembly-CSharp-firstpass.pdb
-C:\KingGit\King\New Unity Project\obj\Debug\Assembly-CSharp-firstpass.csprojResolveAssemblyReference.cache
