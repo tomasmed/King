@@ -24,7 +24,7 @@ GameObject:
   - 23: {fileID: 23000012827135446}
   - 54: {fileID: 54000012109992722}
   m_Layer: 0
-  m_Name: Redirector
+  m_Name: Pillar
   m_TagString: Redirector
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
