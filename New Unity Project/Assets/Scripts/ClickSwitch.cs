@@ -99,11 +99,11 @@ public class ClickSwitch : MonoBehaviour
 				
 
 				if (Controller.S.RedirectorisPlaced == true) {
-					GameObject tmp = GameObject.Find ("Redirect");
+					print ("we have a redirector");
+					GameObject tmp = GameObject.Find ("Redirector(Clone)");
 					Destroy (tmp);
 				}
                 Instantiate(Redirect, hit.point, transform.rotation);
-
 
 			
 				Controller.S.Redirectorpos = new Vector3 (hit.point.x,hit.point.y,hit.point.z);

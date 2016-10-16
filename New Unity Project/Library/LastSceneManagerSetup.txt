@@ -1,4 +1,8 @@
 sceneSetups:
+<<<<<<< HEAD
 - path: Assets/Scenes/HannaUIfuckery.unity
+=======
+- path: Assets/Neilsplayhouse.unity
+>>>>>>> 80eae3b8def3717392746e3682f54c8bc40a23ae
   isLoaded: 1
   isActive: 1
