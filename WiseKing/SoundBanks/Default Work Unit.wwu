@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{674EA86F-7204-42CD-8853-756B726D2233}" SchemaVersion="72">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{674EA86F-7204-42CD-8853-756B726D2233}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="Main" ID="{B06B97D2-BA38-4907-8794-6EBFCB6AA3A2}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Play_Beacon" ID="{51CDEE57-ABB4-4CBE-A6B6-043032BBA371}" WorkUnitID="{0838FC45-2078-40D2-BB2D-2C1F58A19CE9}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>
