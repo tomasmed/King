@@ -10,14 +10,9 @@ public class Timer : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        if (time <= 0)
-        {
-            print("Game Over");
-        }
-        else
-        {
+        if (time > 0)
+        { 
             time -= Time.deltaTime;
-            print((int)time);
         }
 	}
 }
