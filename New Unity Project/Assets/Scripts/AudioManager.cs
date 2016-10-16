@@ -27,7 +27,7 @@ public class AudioManager : MonoBehaviour {
 
     public void PlaySound(AudioClip clip, float pitch, float volume, float spatialBlend = 1f)
     {
-        //instantiates audiosourse locally
+        //instantiates audiosource locally
         AudioSource myAudioSource = Instantiate(audioSourcePrefab).GetComponent<AudioSource>();
         //pitch value of prefab is set to input pitch + variation
         float randomPitch = Random.Range(randMin, randMax);
