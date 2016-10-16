@@ -22,6 +22,56 @@
 						<ActiveSource Name="Beacon" ID="{7101103C-814F-4E9D-81BB-0A9A036E89F9}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
+				<Sound Name="80sLoop_Start" ID="{8A479EE4-7970-4CC7-A18A-E38AB45033A4}" ShortID="125487089" Type="SoundFX">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{035FD98D-1A05-48C3-A47C-84C520101CAE}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EA48A8B5-C8B6-4F88-857E-567E0D2ECE7F}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="80sLoop_Loopable" ID="{47B2EC59-626C-4F45-8239-E71BACC31650}" ShortID="546985149">
+							<PropertyList>
+								<Property Name="FadeInDuration" Type="Real64" Value="1.21978007572076"/>
+								<Property Name="LoopBegin" Type="Real64" Value="17.0439540310172"/>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimBegin" Type="Real64" Value="16.1208772169582"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>80sLoop_Loopable.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="80sLoop_Loopable" ID="{47B2EC59-626C-4F45-8239-E71BACC31650}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="80sLoop_Loopable" ID="{5912FAAC-12CE-4444-991F-0EFBD1032D08}" ShortID="658729081" Type="SoundFX">
+					<PropertyList>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{035FD98D-1A05-48C3-A47C-84C520101CAE}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EA48A8B5-C8B6-4F88-857E-567E0D2ECE7F}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="80sLoop_Loopable" ID="{0C68E614-9C88-4FBC-8F86-208AE2270D96}" ShortID="314693019">
+							<PropertyList>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>80sLoop_Loopable.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="80sLoop_Loopable" ID="{0C68E614-9C88-4FBC-8F86-208AE2270D96}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

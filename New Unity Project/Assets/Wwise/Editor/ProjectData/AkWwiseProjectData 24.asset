@@ -16,8 +16,13 @@ MonoBehaviour:
   - PhysicalPath: Events\Default Work Unit.wwu
     ParentPhysicalPath: 
     Guid: '{0838FC45-2078-40D2-BB2D-2C1F58A19CE9}'
+<<<<<<< HEAD
+    m_lastTimePsrt1: 1086869912
+    m_lastTimePart2: -1999374999
+=======
     m_lastTimePsrt1: 132661526
     m_lastTimePart2: -1999374993
+>>>>>>> 2171a7dee81150d4b7fc53126cadff52d81f08f8
     List:
     - Name: Play_Beacon
       Path: Default Work Unit\Play_Beacon
@@ -33,29 +38,49 @@ MonoBehaviour:
   - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
     ParentPhysicalPath: 
     Guid: '{EA48A8B5-C8B6-4F88-857E-567E0D2ECE7F}'
+<<<<<<< HEAD
+    m_lastTimePsrt1: 1087385274
+    m_lastTimePart2: -1999374999
+=======
     m_lastTimePsrt1: 133091883
     m_lastTimePart2: -1999374993
+>>>>>>> 2171a7dee81150d4b7fc53126cadff52d81f08f8
     List: []
   StateWwu:
   - PhysicalPath: States\Default Work Unit.wwu
     ParentPhysicalPath: 
     Guid: '{F43402DE-9FF0-4E8C-9BF7-4EA06032A119}'
+<<<<<<< HEAD
+    m_lastTimePsrt1: 1087975705
+    m_lastTimePart2: -1999374999
+=======
     m_lastTimePsrt1: 133567570
     m_lastTimePart2: -1999374993
+>>>>>>> 2171a7dee81150d4b7fc53126cadff52d81f08f8
     List: []
   SwitchWwu:
   - PhysicalPath: Switches\Default Work Unit.wwu
     ParentPhysicalPath: 
     Guid: '{704F42EA-2F5D-4471-A0FD-8C9445B0118D}'
+<<<<<<< HEAD
+    m_lastTimePsrt1: 1088025737
+    m_lastTimePart2: -1999374999
+=======
     m_lastTimePsrt1: 133607594
     m_lastTimePart2: -1999374993
+>>>>>>> 2171a7dee81150d4b7fc53126cadff52d81f08f8
     List: []
   BankWwu:
   - PhysicalPath: SoundBanks\Default Work Unit.wwu
     ParentPhysicalPath: 
     Guid: '{674EA86F-7204-42CD-8853-756B726D2233}'
+<<<<<<< HEAD
+    m_lastTimePsrt1: 1087830594
+    m_lastTimePart2: -1999374999
+=======
     m_lastTimePsrt1: 133482127
     m_lastTimePart2: -1999374993
+>>>>>>> 2171a7dee81150d4b7fc53126cadff52d81f08f8
     List:
     - Name: Main
       Path: Default Work Unit\Main
@@ -66,10 +91,14 @@ MonoBehaviour:
         ObjectType: 7
       ID: -1133058374
       Guid: d2976bb038ba074987946ebfcb6aa3a2
+<<<<<<< HEAD
+  ExpandedItems: []
+=======
   ExpandedItems:
   - /WiseKing
   - /WiseKing/SoundBanks
   - /WiseKing/SoundBanks/Default Work Unit
+>>>>>>> 2171a7dee81150d4b7fc53126cadff52d81f08f8
   m_lastPopulateTimePsrt1: 0
   m_lastPopulateTimePart2: 0
   autoPopulateEnabled: 1

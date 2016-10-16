@@ -5,7 +5,9 @@
 			<ChildrenList>
 				<SoundBank Name="Main" ID="{B06B97D2-BA38-4907-8794-6EBFCB6AA3A2}">
 					<ObjectInclusionList>
+						<ObjectRef Name="Play_Music_Loop" ID="{9783DC9D-58F1-4555-9B6C-B3B9A3CA8378}" WorkUnitID="{0838FC45-2078-40D2-BB2D-2C1F58A19CE9}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Beacon" ID="{51CDEE57-ABB4-4CBE-A6B6-043032BBA371}" WorkUnitID="{0838FC45-2078-40D2-BB2D-2C1F58A19CE9}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Stop_Music" ID="{AF1DDB07-37CB-4CF1-B828-69A42C3752F6}" WorkUnitID="{0838FC45-2078-40D2-BB2D-2C1F58A19CE9}" Filter="7" Origin="Manual"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
