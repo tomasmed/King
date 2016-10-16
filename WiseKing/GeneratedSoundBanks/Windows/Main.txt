@@ -1,10 +1,12 @@
 Event	ID	Name			Wwise Object Path	Notes
 	433710372	Play_Music_Loop			\Default Work Unit\Play_Music_Loop	
+	2330159053	Play_ReDirector			\Default Work Unit\Play_ReDirector	
 	2837384057	Stop_Music			\Default Work Unit\Stop_Music	
 	4126284998	Play_Beacon			\Default Work Unit\Play_Beacon	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	314693019	80sLoop_Loopable	C:\Users\Dan Braunstein\Documents\GitHub\King\WiseKing\.cache\Windows\SFX\80sLoop_Loopable_12F9BD65.wem		\Actor-Mixer Hierarchy\Default Work Unit\80sLoop_Loopable		5210728
-	546985149	80sLoop_Start	C:\Users\Dan Braunstein\Documents\GitHub\King\WiseKing\.cache\Windows\SFX\80sLoop_Loopable_88B7BC2A.wem		\Actor-Mixer Hierarchy\Default Work Unit\80sLoop_Start		2366924
-	1003858905	Beacon_v2	C:\Users\Dan Braunstein\Documents\GitHub\King\WiseKing\.cache\Windows\SFX\Beacon_v2_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Beacon_v2		617668
+	314693019	80sLoop_Loopable	C:\Users\Dan Braunstein\Documents\GitHub\King\WiseKing\.cache\Windows\SFX\80sLoop_Loopable_12F9BD65.wem		\Actor-Mixer Hierarchy\Default Work Unit\Music\80sLoop_Loopable		5210728
+	456771147	ReDirector	C:\Users\Dan Braunstein\Documents\GitHub\King\WiseKing\.cache\Windows\SFX\ReDirector_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\ReDirector		650664
+	546985149	80sLoop_Start	C:\Users\Dan Braunstein\Documents\GitHub\King\WiseKing\.cache\Windows\SFX\80sLoop_Loopable_88B7BC2A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Music\80sLoop_Start		2366924
+	1003858905	Beacon_v2	C:\Users\Dan Braunstein\Documents\GitHub\King\WiseKing\.cache\Windows\SFX\Beacon_v2_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Beacon_v2		617668
 

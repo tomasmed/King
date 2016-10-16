@@ -128,7 +128,8 @@ public class ClickSwitch : MonoBehaviour
 				Controller.S.money -= redirectCost; //redirectcost
                 moneyGT.text = "Credits :" + Controller.S.money.ToString();
 				print("placing redirector");
-				Controller.S.RedirectorisPlaced = true; 
+                AkSoundEngine.PostEvent("Play_ReDirector", Redirect);
+                Controller.S.RedirectorisPlaced = true; 
 
             }
             //if RayCast hits another object (can't place bc space)
