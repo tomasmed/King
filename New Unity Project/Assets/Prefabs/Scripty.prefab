@@ -52,5 +52,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tList: []
-  xSize: 25
-  ySize: 25
+  xSize: 55
+  ySize: 50
+  HomeBaseOb: {fileID: 0}

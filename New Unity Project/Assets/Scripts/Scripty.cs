@@ -42,6 +42,7 @@ public class Scripty : MonoBehaviour {
 			}
 		}
 
+		print ("grid size");
 		print (tList.Count);
 
 	}
