@@ -15,7 +15,7 @@ public class HomeBase : MonoBehaviour {
 		
 		GameObject scoreGob = GameObject.Find ("HighScore"); 
 		scoreGT = scoreGob.GetComponent <Text>(); 
-		scoreGT.text = "HumanCount: 0"; 
+		scoreGT.text = "Victim Count: 0"; 
 
 
 		//GameObject moneyGob = GameObject.Find ("MoneyCount"); 
